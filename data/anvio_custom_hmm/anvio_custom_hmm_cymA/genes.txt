@@ -1,0 +1,2 @@
+gene	accession	hmmsource
+CymA	none	FeGenie

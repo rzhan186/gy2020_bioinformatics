@@ -1,0 +1,2 @@
+gene	accession	hmmsource
+MerA	ABCD01234	TIGRFAM

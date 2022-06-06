@@ -1,0 +1,2 @@
+gene	accession	hmmsource
+OmcF	none	FeGenie
