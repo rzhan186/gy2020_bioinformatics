@@ -160,6 +160,9 @@ export contig coverages for binning outside of anvio <br>
 #### Anvi'o manual refinement
 [anvi-refine](https://github.com/rzhan186/gy2020_bioinformatics/blob/master/scripts/anvi_refine.sh) [Niagara]
 
+#### Final MAGs
+[MAGs](https://github.com/rzhan186/gy2020_bioinformatics/blob/master/data/MAGs)
+
 ### Taxonomic classificaiton of the MAGs
 [GTDB-tk](https://github.com/rzhan186/gy2020_bioinformatics/blob/master/scripts/gtdbtk-MAGs.sh) [Niagara]
 
