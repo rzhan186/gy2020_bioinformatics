@@ -1,4 +1,4 @@
-# guiyang2020 bioinformatic spipeline
+# guiyang2020 bioinformatic pipeline
  
 ### Acquiring raw sequence data
 
@@ -13,7 +13,7 @@ SRR15313071
 SRR15313068
 ```
 ### Sequencing data QA/QC
-Examining trimmed reads using fastqc (v0.21.0) then make a summary report using multiqc (v1.9)
+Examining trimmed reads using fastqc (v0.21.0) then make a summary report using multiqc (v1.9) <br>
 [fastqc](https://github.com/rzhan186/gy2020_bioinformatics/blob/master/scripts/fastqc.sh) [Cedar] <br/>
 [multiqc](https://github.com/rzhan186/gy2020_bioinformatics/blob/master/scripts/multiqc.sh) [Cedar]
 
@@ -89,7 +89,7 @@ Constructing profile database <br>
 #### Functional annotation of the contigs using the KEGG kofam database 
 In this step, we will estimate the metabolic potential of our samples by applying hmmsearch using profile HMMs implemented in KEGG's kofam database on the contigs in our contigs db.
 
-[anvi_metabolism](https://github.com/rzhan186/gy2020_bioinformatics/blob/master/scripts/anvi_metabolism.sh) [Niagara]
+[anvi_metabolism](https://github.com/rzhan186/gy2020_bioinformatics/blob/master/scripts/anvi_metabolism_contigs.sh) [Niagara]
 
 The resulting files contain information about KO hits on each individual contig, their gene ID as well as the coverage of each KO on the contigs. Since the files are too large, they won't be stored in this repo. The following table shows an example of the format of the output tables. 
 
@@ -116,14 +116,28 @@ My 2 cents._"
 For example, if the coverage of K00001 in sample hx1a is 100, and the total scg coverage in hx1a is 1000, then the normalized coverage value of K00001 in hx1a would be 100/1000 * 10 = 1. 
 
 
-#### obtaining hgcAB sequences from contigs databases
+#### Obtaining hgcAB sequences from contigs databases
 Becuase there are genes not included in KOFAM, such as the hgcAB, if we were to determine the abundance of those genes, we'd have add our own hmm files into anvio and do some addition coding. I implemented additional hmm files, files and codes are shown below: 
 
 [custom hmm files](https://github.com/rzhan186/gy2020_bioinformatics/blob/master/data/anvio_custom_hmm) 
 
 [anvi custom hmm](https://github.com/rzhan186/gy2020_bioinformatics/blob/master/scripts/anvi_custom_hmm.sh)
 
+Exporting coverage info of the genes identified through the custom HMMs <br>
+[gene coverage](https://github.com/rzhan186/gy2020_bioinformatics/blob/master/scripts/gene_coverage.sh)
 
+#### Contigs level hgcA analysis
+the purpose of this step is the determine the taxonomic classification of each hgcA sequence recovered from the contigs database. <br>
+[hgcA analyses](https://github.com/rzhan186/gy2020_bioinformatics/blob/master/scripts/hgcA_analyses.sh)
+
+hgcA phylogenetic tree <br>
+[hgcA phylogenetic tree](https://github.com/rzhan186/gy2020_bioinformatics/blob/master/scripts/hgcA_phylogenetic_tree.sh) 
+
+hgcAB synteny analysis <br>
+[hgcA contigs synteny](https://github.com/rzhan186/gy2020_bioinformatics/blob/master/scripts/hgcAB_contigs_synteny.sh) 
+
+Taxonomic classification of the contigs containing hgcAB <br>
+[hgcA contigs taxonomy](https://github.com/rzhan186/gy2020_bioinformatics/blob/master/scripts/hgcAB_contigs_taxonomy.sh) 
 
 
 ### Binning (outside of Anvi'o)
@@ -148,6 +162,15 @@ export contig coverages for binning outside of anvio <br>
 
 ### Taxonomic classificaiton of the MAGs
 [GTDB-tk](https://github.com/rzhan186/gy2020_bioinformatics/blob/master/scripts/gtdbtk-MAGs.sh) [Niagara]
+
+### Metabolic analyses of the MAGs
+[MAGs metabolism](https://github.com/rzhan186/gy2020_bioinformatics/blob/master/scripts/anvi_metabolism_MAGs.sh) [Niagara]
+
+### hgcAB synteny analysis of confirmed Hg methylators
+First downloading the genomes of the confirmed methylator from NCBI based on their NCBI accessions, and create Anvi'o contigs databases of the genomes. 
+
+[hgcAB MAGs synteny](https://github.com/rzhan186/gy2020_bioinformatics/blob/master/scripts/hgcAB_MAGs_syteny.sh) [Niagara]
+
 
 
 
