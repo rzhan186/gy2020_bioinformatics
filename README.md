@@ -173,7 +173,7 @@ export contig coverages for binning outside of anvio <br>
 [MAGs metabolism](https://github.com/rzhan186/gy2020_bioinformatics/blob/master/scripts/anvi_metabolism_MAGs.sh) [Niagara]
 
 ### MAGs phylgenomic tree
-[MAGs metabolism](https://github.com/rzhan186/gy2020_bioinformatics/blob/master/scripts/GToTree.sh) [Cedar]
+[GToTree](https://github.com/rzhan186/gy2020_bioinformatics/blob/master/scripts/GToTree.sh) [Cedar]
 
 [tree files](https://github.com/rzhan186/gy2020_bioinformatics/blob/master/data/MAGs_GToTree)
 
