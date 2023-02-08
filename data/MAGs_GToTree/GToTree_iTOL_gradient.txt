@@ -1,0 +1,37 @@
+DATASET_COLORSTRIP		
+SEPARATOR TAB		
+DATASET_LABEL	Phylum	
+COLOR	#ff0000	
+COLOR_BRANCHES		
+DATA		
+		
+GCA_002340265.1	#F94144	p__Verrucomicrobiota
+GCA_002429065.1	#F94144	p__Verrucomicrobiota
+GCA_003138485.1	#F94144	p__Verrucomicrobiota
+GCA_003167115.1	#F94144	p__Verrucomicrobiota
+GCA_003168615.1	#F94144	p__Verrucomicrobiota
+GCA_003252225.1	#F94144	p__Verrucomicrobiota
+GCA_003477185.1	#F94144	p__Verrucomicrobiota
+GCA_003563855.1	#F94144	p__Verrucomicrobiota
+GCA_003567575.1	#F94144	p__Verrucomicrobiota
+GCA_003641465.1	#F94144	p__Verrucomicrobiota
+GCA_004525935.1	#F94144	p__Verrucomicrobiota
+GCA_007124775.1	#F94144	p__Verrucomicrobiota
+GCA_007125875.1	#F94144	p__Verrucomicrobiota
+GCA_009929845.1	#F94144	p__Verrucomicrobiota
+GCA_012514555.1	#F94144	p__Verrucomicrobiota
+GCA_013215875.1	#F94144	p__Verrucomicrobiota
+GCA_016198745.1	#F94144	p__Verrucomicrobiota
+GCA_016776815.1	#F94144	p__Verrucomicrobiota
+GCA_016929905.1	#F94144	p__Verrucomicrobiota
+GCA_017481725.1	#F94144	p__Verrucomicrobiota
+GCA_018432565.1	#F94144	p__Verrucomicrobiota
+GCA_018645275.1	#F94144	p__Verrucomicrobiota
+GCA_018666605.1	#F94144	p__Verrucomicrobiota
+GCA_903916085.1	#F94144	p__Verrucomicrobiota
+GCA_903934155.1	#F94144	p__Verrucomicrobiota
+GCA_903958055.1	#F94144	p__Verrucomicrobiota
+GCF_000170755.1	#F94144	p__Verrucomicrobiota
+refined_metabat2_hx2a_bin_5_sub-contigs	#F94144	p__Verrucomicrobiota
+refined_metabat2_hx2b_bin_14-contigs	#F94144	p__Verrucomicrobiota
+refined_metabat2_hx3a_bin_47-contigs	#F94144	p__Verrucomicrobiotaå

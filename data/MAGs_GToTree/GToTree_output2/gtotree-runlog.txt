@@ -1,0 +1,523 @@
+
+
+               GToTree v1.7.06 (github.com/AstrobioMike/GToTree)
+
+
+ ---------------------------------  RUN INFO  --------------------------------- 
+
+    Command entered:
+    /project/def-careg421/ruizhang/software/GToTree-1.7.06/bin/GToTree -f /project/def-careg421/ruizhang/2020_guiyang/GToTree/2020_guiyang_final_MAGs-fasta-files.txt -a /project/def-careg421/ruizhang/2020_guiyang/GToTree/GTDB_order_dir/subset-accessions.txt -o GToTree_output2 -H Universal_Hug_et_al -D -j 2 -n 8 -M 8
+
+
+    Input genome sources include:
+      - NCBI accessions listed in /project/def-careg421/ruizhang/2020_guiyang/GToTree/GTDB_order_dir/subset-accessions.txt (1593 genomes)
+      - Fasta files listed in /project/def-careg421/ruizhang/2020_guiyang/GToTree/2020_guiyang_final_MAGs-fasta-files.txt (230 genomes)
+
+                             Total input genomes: 1823
+
+  ********************************** NOTICE **********************************  
+    We seem to be aiming to work with 1823 total genomes. This is quite a
+    bit, and the time the individual gene alignments take can quickly become
+    prohibitive with many thousands of genomes like this. By default, GToTree
+    is going use the 'super5' muscle algorithm to help speed up the alignments
+    for this run (since we have so many here). If you don't want this to
+    happen, you should cancel this run now with 'ctrl + c', and add the '-X' 
+    flag to the GToTree call.
+
+    More info can be found here:
+      github.com/AstrobioMike/GToTree/wiki/things-to-consider#working-with-many-genomes
+
+    And while we're chatting, you may also want to consider
+    using "representative" genomes, if you're not already. More info on that can be found here:
+      github.com/AstrobioMike/GToTree/wiki/things-to-consider#consider-using-representative-genomes
+
+  ****************************************************************************  
+
+
+    HMM source to be used:
+      - hmm_setsUniversal_Hug_et_al (16 targets)
+
+    Options set:
+      - The output directory has been set to "GToTree_output2/"
+      - GTDB taxonomic info will be added to labels where possible
+      - Number of cpus to use during hmm search ("-n") has been set to 8
+      - Number of jobs to run during parallelizable steps has been set to 2
+
+ ############################################################################## 
+ ####          Working on the genomes provided as NCBI accessions          ####
+ ############################################################################## 
+
+		  Downloading GenBank assembly summaries...
+
+
+		  Downloading RefSeq assembly summaries...
+
+
+  ********************************** NOTICE **********************************  
+    72 accession(s) not successfully found at NCBI.
+
+    Reported in "GToTree_output2/run_files/NCBI_accessions_not_found.txt".
+  ****************************************************************************  
+
+        Of the input genomes provided by NCBI accession:
+
+________________________________________________________________________________
+
+
+     ******************************* UPDATE *******************************  
+          72 accession(s) not found at NCBI.
+          Reported in "GToTree_output2/run_files/NCBI_accessions_not_found.txt".
+
+        1521 of the total 1593 input accessions had their genomes successfully
+        downloaded and searched.
+     ********************************************************************** 
+
+
+ ############################################################################## 
+ ####            Working on the genomes provided as fasta files            ####
+ ############################################################################## 
+
+           It is currently 06:36 PM; the process started at 05:43 PM.
+               Current process runtime: 0 hours and 53 minutes.
+
+_______________________________________________________________________________
+
+
+ ############################################################################## 
+ ####                     Filtering genes by length                        ####
+ ############################################################################## 
+
+     Keeping those with lengths within 20% of the median for the gene set.
+
+           It is currently 06:49 PM; the process started at 05:43 PM.
+               Current process runtime: 1 hours and 5 minutes.
+
+________________________________________________________________________________ 
+
+
+
+ ############################################################################## 
+ ####                Filtering genomes with too few hits                   ####
+ ############################################################################## 
+
+     Removing those with fewer than 50% of the total SCGs targeted.
+
+           It is currently 06:49 PM; the process started at 05:43 PM.
+               Current process runtime: 1 hours and 6 minutes.
+
+  ********************************** NOTICE **********************************  
+    225 genome(s) removed from analysis due to having too few hits.
+
+    Reported in "GToTree_output2/run_files/Genomes_removed_for_too_few_hits.tsv".
+  ****************************************************************************  
+
+________________________________________________________________________________
+
+
+
+ ############################################################################## 
+ ####          Aligning, trimming, and inserting gap-sequences             ####
+ ############################################################################## 
+
+           It is currently 06:49 PM; the process started at 05:43 PM.
+               Current process runtime: 1 hours and 6 minutes.
+
+
+
+________________________________________________________________________________
+
+
+
+ ############################################################################## 
+ ####                  Catting all alignments together                     ####
+ ############################################################################## 
+
+           It is currently 07:11 PM; the process started at 05:43 PM.
+               Current process runtime: 1 hours and 28 minutes.
+
+
+________________________________________________________________________________
+
+
+
+ ############################################################################## 
+ ####                   Adding more informative headers                    ####
+ ############################################################################## 
+
+  ********************************** NOTICE **********************************  
+    Strain-level labels were requested in addition to using GTDB taxonomy
+    where possible. This is just a note that there will be no strain-level
+    labels added for those that had GTDB lineage info added.
+  ****************************************************************************  
+
+  ********************************** NOTICE **********************************
+    You specified to swap labels either with a specific mapping file (passed
+    to the '-m' flag) and/or by specifying to add NCBI or GTDB taxonomy info,
+    but none of these worked out :(
+
+    Genomes from your mapping file may have been filtered out, and there may
+    have been no accessible taxonomy information to retrieve (which typically
+    would come from inputs provided as NCBI accessions or GenBank files that
+    might hold that information).
+
+    In this case no labels could be swapped.
+  ***************************************************************************** 
+
+
+________________________________________________________________________________
+
+
+
+ ############################################################################## 
+ ####                          Running FastTree                            ####
+ ############################################################################## 
+
+           It is currently 07:11 PM; the process started at 05:43 PM.
+               Current process runtime: 1 hours and 28 minutes.
+
+FastTree Version 2.1.11 SSE3, OpenMP (32 threads)
+Alignment: GToTree_output2/Aligned_SCGs.faa
+Amino acid distances: BLOSUM45 Joins: balanced Support: SH-like 1000
+Search: Normal +NNI +SPR (2 rounds range 10) +ML-NNI opt-each=1
+TopHits: 1.00*sqrtN close=default refresh=0.80
+ML Model: Jones-Taylor-Thorton, CAT approximation with 20 rate categories
+Ignored unknown character X (seen 114277 times)
+      0.15 seconds: Top hits for      0 of   1521 seqs (at seed    100)
+      0.43 seconds: Checking top hits for      1 of   1521 seqs
+      3.90 seconds: Joined    100 of   1518
+      6.77 seconds: Joined    200 of   1518
+      9.40 seconds: Joined    300 of   1518
+     12.60 seconds: Joined    400 of   1518
+     14.19 seconds: Joined    500 of   1518
+     14.77 seconds: Joined    600 of   1518
+     15.65 seconds: Joined    700 of   1518
+     18.62 seconds: Joined    800 of   1518
+     22.04 seconds: Joined    900 of   1518
+     25.06 seconds: Joined   1000 of   1518
+     27.66 seconds: Joined   1100 of   1518
+     30.87 seconds: Joined   1200 of   1518
+     33.93 seconds: Joined   1300 of   1518
+     37.06 seconds: Joined   1400 of   1518
+     40.38 seconds: Joined   1500 of   1518
+Initial topology in 40.85 seconds
+Refining topology: 42 rounds ME-NNIs, 2 rounds ME-SPRs, 21 rounds ML-NNIs
+     40.84 seconds: ME NNI round 1 of 42, 1 of 1519 splits
+     40.95 seconds: ME NNI round 1 of 42, 201 of 1519 splits, 39 changes (max delta 0.036)
+     41.06 seconds: ME NNI round 1 of 42, 401 of 1519 splits, 96 changes (max delta 0.050)
+     41.16 seconds: ME NNI round 1 of 42, 601 of 1519 splits, 144 changes (max delta 0.050)
+     41.30 seconds: ME NNI round 1 of 42, 901 of 1519 splits, 230 changes (max delta 0.050)
+     41.44 seconds: ME NNI round 1 of 42, 1201 of 1519 splits, 300 changes (max delta 0.050)
+     41.57 seconds: ME NNI round 1 of 42, 1501 of 1519 splits, 381 changes (max delta 0.050)
+     41.70 seconds: ME NNI round 2 of 42, 301 of 1519 splits, 29 changes (max delta 0.032)
+     41.82 seconds: ME NNI round 2 of 42, 601 of 1519 splits, 77 changes (max delta 0.035)
+     41.94 seconds: ME NNI round 2 of 42, 901 of 1519 splits, 112 changes (max delta 0.035)
+     42.06 seconds: ME NNI round 2 of 42, 1201 of 1519 splits, 139 changes (max delta 0.035)
+     42.18 seconds: ME NNI round 2 of 42, 1501 of 1519 splits, 189 changes (max delta 0.035)
+     42.31 seconds: ME NNI round 3 of 42, 301 of 1519 splits, 25 changes (max delta 0.015)
+     42.43 seconds: ME NNI round 3 of 42, 601 of 1519 splits, 51 changes (max delta 0.017)
+     42.55 seconds: ME NNI round 3 of 42, 901 of 1519 splits, 77 changes (max delta 0.017)
+     42.67 seconds: ME NNI round 3 of 42, 1201 of 1519 splits, 118 changes (max delta 0.017)
+     42.80 seconds: ME NNI round 4 of 42, 301 of 1519 splits, 18 changes (max delta 0.012)
+     42.93 seconds: ME NNI round 4 of 42, 601 of 1519 splits, 53 changes (max delta 0.016)
+     43.03 seconds: ME NNI round 5 of 42, 1 of 1519 splits
+     43.16 seconds: ME NNI round 5 of 42, 301 of 1519 splits, 30 changes (max delta 0.015)
+     43.29 seconds: ME NNI round 5 of 42, 601 of 1519 splits, 77 changes (max delta 0.015)
+     43.39 seconds: ME NNI round 6 of 42, 201 of 1519 splits, 15 changes (max delta 0.016)
+     43.51 seconds: ME NNI round 6 of 42, 501 of 1519 splits, 50 changes (max delta 0.020)
+     43.65 seconds: ME NNI round 7 of 42, 301 of 1519 splits, 18 changes (max delta 0.023)
+     43.77 seconds: ME NNI round 8 of 42, 201 of 1519 splits, 11 changes (max delta 0.023)
+     43.89 seconds: ME NNI round 10 of 42, 1 of 1519 splits
+     44.02 seconds: ME NNI round 11 of 42, 101 of 1519 splits, 5 changes (max delta 0.007)
+     44.87 seconds: SPR round   1 of   2, 101 of 3040 nodes
+     45.57 seconds: SPR round   1 of   2, 201 of 3040 nodes
+     46.33 seconds: SPR round   1 of   2, 301 of 3040 nodes
+     47.01 seconds: SPR round   1 of   2, 401 of 3040 nodes
+     47.70 seconds: SPR round   1 of   2, 501 of 3040 nodes
+     48.45 seconds: SPR round   1 of   2, 601 of 3040 nodes
+     49.15 seconds: SPR round   1 of   2, 701 of 3040 nodes
+     49.80 seconds: SPR round   1 of   2, 801 of 3040 nodes
+     50.39 seconds: SPR round   1 of   2, 901 of 3040 nodes
+     51.10 seconds: SPR round   1 of   2, 1001 of 3040 nodes
+     51.77 seconds: SPR round   1 of   2, 1101 of 3040 nodes
+     52.48 seconds: SPR round   1 of   2, 1201 of 3040 nodes
+     53.18 seconds: SPR round   1 of   2, 1301 of 3040 nodes
+     53.90 seconds: SPR round   1 of   2, 1401 of 3040 nodes
+     54.58 seconds: SPR round   1 of   2, 1501 of 3040 nodes
+     55.38 seconds: SPR round   1 of   2, 1601 of 3040 nodes
+     56.01 seconds: SPR round   1 of   2, 1701 of 3040 nodes
+     56.79 seconds: SPR round   1 of   2, 1801 of 3040 nodes
+     57.48 seconds: SPR round   1 of   2, 1901 of 3040 nodes
+     58.20 seconds: SPR round   1 of   2, 2001 of 3040 nodes
+     58.92 seconds: SPR round   1 of   2, 2101 of 3040 nodes
+     59.62 seconds: SPR round   1 of   2, 2201 of 3040 nodes
+     60.24 seconds: SPR round   1 of   2, 2301 of 3040 nodes
+     60.92 seconds: SPR round   1 of   2, 2401 of 3040 nodes
+     61.62 seconds: SPR round   1 of   2, 2501 of 3040 nodes
+     62.30 seconds: SPR round   1 of   2, 2601 of 3040 nodes
+     63.07 seconds: SPR round   1 of   2, 2701 of 3040 nodes
+     63.80 seconds: SPR round   1 of   2, 2801 of 3040 nodes
+     64.64 seconds: SPR round   1 of   2, 2901 of 3040 nodes
+     65.26 seconds: SPR round   1 of   2, 3001 of 3040 nodes
+     65.58 seconds: ME NNI round 15 of 42, 1 of 1519 splits
+     65.69 seconds: ME NNI round 15 of 42, 301 of 1519 splits, 13 changes (max delta 0.003)
+     65.80 seconds: ME NNI round 15 of 42, 601 of 1519 splits, 18 changes (max delta 0.005)
+     65.91 seconds: ME NNI round 15 of 42, 901 of 1519 splits, 20 changes (max delta 0.005)
+     66.02 seconds: ME NNI round 15 of 42, 1201 of 1519 splits, 24 changes (max delta 0.005)
+     66.14 seconds: ME NNI round 15 of 42, 1501 of 1519 splits, 34 changes (max delta 0.005)
+     66.26 seconds: ME NNI round 16 of 42, 301 of 1519 splits, 4 changes (max delta 0.002)
+     66.37 seconds: ME NNI round 16 of 42, 601 of 1519 splits, 8 changes (max delta 0.005)
+     66.48 seconds: ME NNI round 16 of 42, 901 of 1519 splits, 8 changes (max delta 0.005)
+     66.59 seconds: ME NNI round 16 of 42, 1201 of 1519 splits, 9 changes (max delta 0.007)
+     66.70 seconds: ME NNI round 16 of 42, 1501 of 1519 splits, 12 changes (max delta 0.007)
+     66.82 seconds: ME NNI round 18 of 42, 1 of 1519 splits
+     67.61 seconds: SPR round   2 of   2, 101 of 3040 nodes
+     68.28 seconds: SPR round   2 of   2, 201 of 3040 nodes
+     69.02 seconds: SPR round   2 of   2, 301 of 3040 nodes
+     69.65 seconds: SPR round   2 of   2, 401 of 3040 nodes
+     70.44 seconds: SPR round   2 of   2, 501 of 3040 nodes
+     71.22 seconds: SPR round   2 of   2, 601 of 3040 nodes
+     71.84 seconds: SPR round   2 of   2, 701 of 3040 nodes
+     72.45 seconds: SPR round   2 of   2, 801 of 3040 nodes
+     73.09 seconds: SPR round   2 of   2, 901 of 3040 nodes
+     73.76 seconds: SPR round   2 of   2, 1001 of 3040 nodes
+     74.50 seconds: SPR round   2 of   2, 1101 of 3040 nodes
+     75.22 seconds: SPR round   2 of   2, 1201 of 3040 nodes
+     75.95 seconds: SPR round   2 of   2, 1301 of 3040 nodes
+     76.62 seconds: SPR round   2 of   2, 1401 of 3040 nodes
+     77.33 seconds: SPR round   2 of   2, 1501 of 3040 nodes
+     78.07 seconds: SPR round   2 of   2, 1601 of 3040 nodes
+     78.74 seconds: SPR round   2 of   2, 1701 of 3040 nodes
+     79.49 seconds: SPR round   2 of   2, 1801 of 3040 nodes
+     80.17 seconds: SPR round   2 of   2, 1901 of 3040 nodes
+     80.91 seconds: SPR round   2 of   2, 2001 of 3040 nodes
+     81.63 seconds: SPR round   2 of   2, 2101 of 3040 nodes
+     82.32 seconds: SPR round   2 of   2, 2201 of 3040 nodes
+     82.99 seconds: SPR round   2 of   2, 2301 of 3040 nodes
+     83.66 seconds: SPR round   2 of   2, 2401 of 3040 nodes
+     84.30 seconds: SPR round   2 of   2, 2501 of 3040 nodes
+     84.99 seconds: SPR round   2 of   2, 2601 of 3040 nodes
+     85.76 seconds: SPR round   2 of   2, 2701 of 3040 nodes
+     86.51 seconds: SPR round   2 of   2, 2801 of 3040 nodes
+     87.34 seconds: SPR round   2 of   2, 2901 of 3040 nodes
+     87.96 seconds: SPR round   2 of   2, 3001 of 3040 nodes
+     88.29 seconds: ME NNI round 29 of 42, 1 of 1519 splits
+     88.41 seconds: ME NNI round 29 of 42, 301 of 1519 splits, 2 changes (max delta 0.002)
+     88.54 seconds: ME NNI round 29 of 42, 601 of 1519 splits, 5 changes (max delta 0.012)
+     88.65 seconds: ME NNI round 29 of 42, 901 of 1519 splits, 5 changes (max delta 0.012)
+     88.77 seconds: ME NNI round 29 of 42, 1201 of 1519 splits, 12 changes (max delta 0.012)
+     88.88 seconds: ME NNI round 29 of 42, 1501 of 1519 splits, 20 changes (max delta 0.012)
+     89.00 seconds: ME NNI round 30 of 42, 301 of 1519 splits, 0 changes
+     89.11 seconds: ME NNI round 30 of 42, 601 of 1519 splits, 1 changes (max delta 0.002)
+     89.22 seconds: ME NNI round 30 of 42, 901 of 1519 splits, 1 changes (max delta 0.002)
+     89.33 seconds: ME NNI round 30 of 42, 1201 of 1519 splits, 2 changes (max delta 0.002)
+     89.44 seconds: ME NNI round 30 of 42, 1501 of 1519 splits, 5 changes (max delta 0.010)
+     89.55 seconds: ME NNI round 34 of 42, 1 of 1519 splits
+Total branch-length 302.269 after 90.18 sec
+     90.31 seconds: ML Lengths 1 of 1519 splits
+     91.30 seconds: ML Lengths 101 of 1519 splits
+     92.28 seconds: ML Lengths 201 of 1519 splits
+     93.27 seconds: ML Lengths 301 of 1519 splits
+     94.27 seconds: ML Lengths 401 of 1519 splits
+     95.23 seconds: ML Lengths 501 of 1519 splits
+     96.20 seconds: ML Lengths 601 of 1519 splits
+     97.18 seconds: ML Lengths 701 of 1519 splits
+     98.18 seconds: ML Lengths 801 of 1519 splits
+     99.16 seconds: ML Lengths 901 of 1519 splits
+    100.14 seconds: ML Lengths 1001 of 1519 splits
+    101.13 seconds: ML Lengths 1101 of 1519 splits
+    103.08 seconds: ML Lengths 1301 of 1519 splits
+    104.06 seconds: ML Lengths 1401 of 1519 splits
+    105.04 seconds: ML Lengths 1501 of 1519 splits
+    105.21 seconds: ML NNI round 1 of 21, 1 of 1519 splits
+    109.75 seconds: ML NNI round 1 of 21, 101 of 1519 splits, 18 changes (max delta 42.822)
+    113.65 seconds: ML NNI round 1 of 21, 201 of 1519 splits, 46 changes (max delta 42.822)
+    114.91 seconds: ML NNI round 1 of 21, 301 of 1519 splits, 69 changes (max delta 42.822)
+    116.28 seconds: ML NNI round 1 of 21, 401 of 1519 splits, 100 changes (max delta 42.822)
+    117.67 seconds: ML NNI round 1 of 21, 501 of 1519 splits, 121 changes (max delta 42.822)
+    118.96 seconds: ML NNI round 1 of 21, 601 of 1519 splits, 145 changes (max delta 42.822)
+    120.30 seconds: ML NNI round 1 of 21, 701 of 1519 splits, 167 changes (max delta 42.822)
+    121.53 seconds: ML NNI round 1 of 21, 801 of 1519 splits, 191 changes (max delta 42.822)
+    122.84 seconds: ML NNI round 1 of 21, 901 of 1519 splits, 218 changes (max delta 42.822)
+    124.80 seconds: ML NNI round 1 of 21, 1001 of 1519 splits, 239 changes (max delta 42.822)
+    129.15 seconds: ML NNI round 1 of 21, 1101 of 1519 splits, 262 changes (max delta 42.822)
+    133.91 seconds: ML NNI round 1 of 21, 1201 of 1519 splits, 292 changes (max delta 42.822)
+    137.01 seconds: ML NNI round 1 of 21, 1301 of 1519 splits, 327 changes (max delta 69.299)
+    141.41 seconds: ML NNI round 1 of 21, 1401 of 1519 splits, 350 changes (max delta 69.299)
+    145.51 seconds: ML NNI round 1 of 21, 1501 of 1519 splits, 369 changes (max delta 69.299)
+ML-NNI round 1: LogLk = -2637992.349 NNIs 374 max delta 69.30 Time 146.56
+    147.78 seconds: Site likelihoods with rate category 1 of 20
+    148.99 seconds: Site likelihoods with rate category 2 of 20
+    150.19 seconds: Site likelihoods with rate category 3 of 20
+    151.39 seconds: Site likelihoods with rate category 4 of 20
+    152.59 seconds: Site likelihoods with rate category 5 of 20
+    153.79 seconds: Site likelihoods with rate category 6 of 20
+    154.99 seconds: Site likelihoods with rate category 7 of 20
+    156.19 seconds: Site likelihoods with rate category 8 of 20
+    157.39 seconds: Site likelihoods with rate category 9 of 20
+    158.59 seconds: Site likelihoods with rate category 10 of 20
+    159.78 seconds: Site likelihoods with rate category 11 of 20
+    160.97 seconds: Site likelihoods with rate category 12 of 20
+    162.17 seconds: Site likelihoods with rate category 13 of 20
+    163.36 seconds: Site likelihoods with rate category 14 of 20
+    164.55 seconds: Site likelihoods with rate category 15 of 20
+    165.74 seconds: Site likelihoods with rate category 16 of 20
+    166.93 seconds: Site likelihoods with rate category 17 of 20
+    168.11 seconds: Site likelihoods with rate category 18 of 20
+    169.30 seconds: Site likelihoods with rate category 19 of 20
+    170.48 seconds: Site likelihoods with rate category 20 of 20
+Switched to using 20 rate categories (CAT approximation)
+Rate categories were divided by 1.137 so that average rate = 1.0
+CAT-based log-likelihoods may not be comparable across runs
+Use -gamma for approximate but comparable Gamma(20) log-likelihoods
+    172.71 seconds: ML NNI round 2 of 21, 1 of 1519 splits
+    175.55 seconds: ML NNI round 2 of 21, 101 of 1519 splits, 12 changes (max delta 17.337)
+    176.91 seconds: ML NNI round 2 of 21, 201 of 1519 splits, 33 changes (max delta 17.337)
+    178.30 seconds: ML NNI round 2 of 21, 301 of 1519 splits, 47 changes (max delta 21.954)
+    179.59 seconds: ML NNI round 2 of 21, 401 of 1519 splits, 56 changes (max delta 21.954)
+    181.05 seconds: ML NNI round 2 of 21, 501 of 1519 splits, 73 changes (max delta 25.048)
+    182.48 seconds: ML NNI round 2 of 21, 601 of 1519 splits, 97 changes (max delta 25.048)
+    183.79 seconds: ML NNI round 2 of 21, 701 of 1519 splits, 103 changes (max delta 25.048)
+    185.15 seconds: ML NNI round 2 of 21, 801 of 1519 splits, 118 changes (max delta 29.690)
+    186.50 seconds: ML NNI round 2 of 21, 901 of 1519 splits, 142 changes (max delta 30.595)
+    188.00 seconds: ML NNI round 2 of 21, 1001 of 1519 splits, 150 changes (max delta 30.595)
+    189.88 seconds: ML NNI round 2 of 21, 1101 of 1519 splits, 161 changes (max delta 30.595)
+    191.18 seconds: ML NNI round 2 of 21, 1201 of 1519 splits, 171 changes (max delta 30.595)
+    192.77 seconds: ML NNI round 2 of 21, 1301 of 1519 splits, 179 changes (max delta 30.595)
+    194.70 seconds: ML NNI round 2 of 21, 1401 of 1519 splits, 201 changes (max delta 30.595)
+    196.08 seconds: ML NNI round 2 of 21, 1501 of 1519 splits, 220 changes (max delta 30.595)
+ML-NNI round 2: LogLk = -2439157.913 NNIs 220 max delta 30.59 Time 196.41
+    196.41 seconds: ML NNI round 3 of 21, 1 of 1519 splits
+    197.86 seconds: ML NNI round 3 of 21, 101 of 1519 splits, 10 changes (max delta 5.588)
+    199.25 seconds: ML NNI round 3 of 21, 201 of 1519 splits, 19 changes (max delta 10.581)
+    203.45 seconds: ML NNI round 3 of 21, 301 of 1519 splits, 27 changes (max delta 10.581)
+    206.55 seconds: ML NNI round 3 of 21, 401 of 1519 splits, 31 changes (max delta 12.549)
+    207.90 seconds: ML NNI round 3 of 21, 501 of 1519 splits, 41 changes (max delta 12.684)
+    209.19 seconds: ML NNI round 3 of 21, 601 of 1519 splits, 42 changes (max delta 12.684)
+    210.60 seconds: ML NNI round 3 of 21, 701 of 1519 splits, 53 changes (max delta 22.407)
+    211.98 seconds: ML NNI round 3 of 21, 801 of 1519 splits, 56 changes (max delta 22.407)
+    213.31 seconds: ML NNI round 3 of 21, 901 of 1519 splits, 60 changes (max delta 22.407)
+    214.64 seconds: ML NNI round 3 of 21, 1001 of 1519 splits, 62 changes (max delta 22.407)
+    216.02 seconds: ML NNI round 3 of 21, 1101 of 1519 splits, 66 changes (max delta 22.407)
+    217.40 seconds: ML NNI round 3 of 21, 1201 of 1519 splits, 72 changes (max delta 22.407)
+ML-NNI round 3: LogLk = -2438791.776 NNIs 77 max delta 22.41 Time 218.49
+    219.95 seconds: ML NNI round 4 of 21, 101 of 1519 splits, 2 changes (max delta 14.289)
+    221.35 seconds: ML NNI round 4 of 21, 201 of 1519 splits, 8 changes (max delta 14.289)
+    222.72 seconds: ML NNI round 4 of 21, 301 of 1519 splits, 14 changes (max delta 15.598)
+    224.01 seconds: ML NNI round 4 of 21, 401 of 1519 splits, 15 changes (max delta 15.598)
+    225.37 seconds: ML NNI round 4 of 21, 501 of 1519 splits, 20 changes (max delta 16.705)
+    226.69 seconds: ML NNI round 4 of 21, 601 of 1519 splits, 20 changes (max delta 16.705)
+    228.03 seconds: ML NNI round 4 of 21, 701 of 1519 splits, 23 changes (max delta 16.705)
+    229.40 seconds: ML NNI round 4 of 21, 801 of 1519 splits, 30 changes (max delta 16.705)
+ML-NNI round 4: LogLk = -2438650.157 NNIs 34 max delta 16.70 Time 233.79
+    233.79 seconds: ML NNI round 5 of 21, 1 of 1519 splits
+    238.55 seconds: ML NNI round 5 of 21, 101 of 1519 splits, 4 changes (max delta 5.880)
+    243.13 seconds: ML NNI round 5 of 21, 201 of 1519 splits, 5 changes (max delta 5.880)
+    246.12 seconds: ML NNI round 5 of 21, 301 of 1519 splits, 11 changes (max delta 20.563)
+    247.53 seconds: ML NNI round 5 of 21, 401 of 1519 splits, 14 changes (max delta 20.563)
+ML-NNI round 5: LogLk = -2438581.407 NNIs 14 max delta 20.56 Time 248.40
+    248.40 seconds: ML NNI round 6 of 21, 1 of 1519 splits
+    249.82 seconds: ML NNI round 6 of 21, 101 of 1519 splits, 3 changes (max delta 2.592)
+    251.25 seconds: ML NNI round 6 of 21, 201 of 1519 splits, 5 changes (max delta 5.825)
+ML-NNI round 6: LogLk = -2438567.288 NNIs 5 max delta 5.83 Time 251.95
+    251.95 seconds: ML NNI round 7 of 21, 1 of 1519 splits
+    253.33 seconds: ML NNI round 7 of 21, 101 of 1519 splits, 1 changes (max delta 0.009)
+ML-NNI round 7: LogLk = -2438566.549 NNIs 1 max delta 0.01 Time 253.42
+Turning off heuristics for final round of ML NNIs (converged)
+    254.88 seconds: ML NNI round 8 of 21, 101 of 1519 splits, 0 changes
+    259.34 seconds: ML NNI round 8 of 21, 201 of 1519 splits, 0 changes
+    263.81 seconds: ML NNI round 8 of 21, 301 of 1519 splits, 4 changes (max delta 3.848)
+    268.18 seconds: ML NNI round 8 of 21, 401 of 1519 splits, 8 changes (max delta 10.144)
+    272.59 seconds: ML NNI round 8 of 21, 501 of 1519 splits, 11 changes (max delta 14.711)
+    277.00 seconds: ML NNI round 8 of 21, 601 of 1519 splits, 11 changes (max delta 14.711)
+    278.99 seconds: ML NNI round 8 of 21, 701 of 1519 splits, 11 changes (max delta 14.711)
+    280.33 seconds: ML NNI round 8 of 21, 801 of 1519 splits, 13 changes (max delta 14.711)
+    281.71 seconds: ML NNI round 8 of 21, 901 of 1519 splits, 17 changes (max delta 14.711)
+    283.00 seconds: ML NNI round 8 of 21, 1001 of 1519 splits, 17 changes (max delta 14.711)
+    284.91 seconds: ML NNI round 8 of 21, 1101 of 1519 splits, 18 changes (max delta 14.711)
+    286.18 seconds: ML NNI round 8 of 21, 1201 of 1519 splits, 20 changes (max delta 14.711)
+    287.51 seconds: ML NNI round 8 of 21, 1301 of 1519 splits, 21 changes (max delta 14.711)
+    288.86 seconds: ML NNI round 8 of 21, 1401 of 1519 splits, 22 changes (max delta 14.711)
+    290.18 seconds: ML NNI round 8 of 21, 1501 of 1519 splits, 22 changes (max delta 14.711)
+ML-NNI round 8: LogLk = -2438480.451 NNIs 22 max delta 14.71 Time 290.64 (final)
+    290.64 seconds: ML Lengths 1 of 1519 splits
+    291.58 seconds: ML Lengths 101 of 1519 splits
+    292.52 seconds: ML Lengths 201 of 1519 splits
+    293.46 seconds: ML Lengths 301 of 1519 splits
+    294.38 seconds: ML Lengths 401 of 1519 splits
+    295.31 seconds: ML Lengths 501 of 1519 splits
+    296.22 seconds: ML Lengths 601 of 1519 splits
+    297.16 seconds: ML Lengths 701 of 1519 splits
+    298.09 seconds: ML Lengths 801 of 1519 splits
+    299.04 seconds: ML Lengths 901 of 1519 splits
+    299.96 seconds: ML Lengths 1001 of 1519 splits
+    300.90 seconds: ML Lengths 1101 of 1519 splits
+    301.82 seconds: ML Lengths 1201 of 1519 splits
+    302.77 seconds: ML Lengths 1301 of 1519 splits
+    303.70 seconds: ML Lengths 1401 of 1519 splits
+    304.62 seconds: ML Lengths 1501 of 1519 splits
+Optimize all lengths: LogLk = -2438477.555 Time 304.87
+    307.36 seconds: ML split tests for    100 of   1518 internal splits
+    309.80 seconds: ML split tests for    200 of   1518 internal splits
+    312.27 seconds: ML split tests for    300 of   1518 internal splits
+    314.64 seconds: ML split tests for    400 of   1518 internal splits
+    318.11 seconds: ML split tests for    500 of   1518 internal splits
+    321.98 seconds: ML split tests for    600 of   1518 internal splits
+    325.60 seconds: ML split tests for    700 of   1518 internal splits
+    328.03 seconds: ML split tests for    800 of   1518 internal splits
+    330.50 seconds: ML split tests for    900 of   1518 internal splits
+    333.52 seconds: ML split tests for   1000 of   1518 internal splits
+    337.19 seconds: ML split tests for   1100 of   1518 internal splits
+    341.10 seconds: ML split tests for   1200 of   1518 internal splits
+    345.07 seconds: ML split tests for   1300 of   1518 internal splits
+    348.57 seconds: ML split tests for   1400 of   1518 internal splits
+    350.99 seconds: ML split tests for   1500 of   1518 internal splits
+Total time: 351.66 seconds Unique: 1521/1526 Bad splits: 3/1518 Worst delta-LogLk 19.998
+
+
+#################################################################################
+####                                 Done!!                                  ####
+#################################################################################
+
+  Overall, 1526 genomes of the input 1823 were retained (see notes below).
+
+    Tree written to:
+        GToTree_output2/GToTree_output2.tre
+
+    Alignment written to:
+        GToTree_output2/Aligned_SCGs.faa
+
+    Main genomes summary table written to:
+        GToTree_output2/Genomes_summary_info.tsv
+
+    Summary table with hits per target gene per genome written to:
+        GToTree_output2/SCG_hit_counts.tsv
+
+    Partitions file (for downstream use with mixed-model treeing) written to:
+        GToTree_output2/run_files/Partitions.txt
+
+ _______________________________________________________________________________
+
+  Notes:
+
+        72 accession(s) not successfully found at NCBI.
+        225 genome(s) removed due to having too few hits to the targeted SCGs.
+        32 genome(s) had an estimated redundancy of >= 10%.
+
+    Reported along with additional informative run files in:
+        GToTree_output2/run_files/
+
+ _______________________________________________________________________________
+
+    Log file written to:
+        GToTree_output2/gtotree-runlog.txt
+ _______________________________________________________________________________
+
+    Programs used and their citations have been written to:
+        GToTree_output2/citations.txt
+
+ _______________________________________________________________________________
+
+
+                                         Total process runtime: 1 hours and 34 minutes.
+                                                      Happy Wednesday :)
+

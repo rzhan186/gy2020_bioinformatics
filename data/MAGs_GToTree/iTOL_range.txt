@@ -1,0 +1,1530 @@
+TREE_COLORS			
+SEPARATOR TAB			
+DATA			
+			
+GCA_000008085.1	range		p__Nanoarchaeota
+GCA_000403035.1	range		p__Latescibacterota
+GCA_000436195.1	range	#7fffd4	p__Proteobacteria
+GCA_000798955.1	range	#0000ff	p__Firmicutes
+GCA_000987045.1	range	#ffa500	p__Firmicutes_B
+GCA_000990575.1	range	#ee82ee	p__Patescibacteria
+GCA_000991445.1	range	#ee82ee	p__Patescibacteria
+GCA_000992395.1	range	#ee82ee	p__Patescibacteria
+GCA_000992445.2	range	#ee82ee	p__Patescibacteria
+GCA_000992725.1	range	#ee82ee	p__Patescibacteria
+GCA_000994805.1	range	#ee82ee	p__Patescibacteria
+GCA_000996085.1	range	#ee82ee	p__Patescibacteria
+GCA_001000215.1	range	#ee82ee	p__Patescibacteria
+GCA_001002645.1	range	#ee82ee	p__Patescibacteria
+GCA_001302725.1	range		p__Zixibacteria
+GCA_001302825.1	range	#ff1493	p__Planctomycetota
+GCA_001302835.1	range		p__TA06
+GCA_001303885.1	range	#ff1493	p__Planctomycetota
+GCA_001304015.1	range		p__TA06_A
+GCA_001304035.1	range		p__SM23-31
+GCA_001443005.1	range		p__Synergistota
+GCA_001462255.1	range		p__Fibrobacterota
+GCA_001512605.1	range	#ffa500	p__Firmicutes_G
+GCA_001513335.1	range	#ffa500	p__Firmicutes_B
+GCA_001515205.2	range		p__Hadarchaeota
+GCA_001567305.1	range	#ee82ee	p__Patescibacteria
+GCA_001577715.1	range	#7b68ee	p__Desulfobacterota
+GCA_001586195.1	range	#0000ff	p__Firmicutes
+GCA_001664005.1	range	#7fffd4	p__Proteobacteria
+GCA_001664505.1	range	#6495ed	p__Acidobacteriota
+GCA_001717015.1	range	#8b008b	p__Thermoproteota
+GCA_001723995.1	range	#ffa500	p__Firmicutes_F
+GCA_001725215.1	range	#ffa500	p__Firmicutes_A
+GCA_001730085.1	range		p__GCA-001730085
+GCA_001750645.1	range	#7fffd4	p__Proteobacteria
+GCA_001751015.1	range	#7b68ee	p__Desulfobacterota
+GCA_001766815.1	range	#00008b	p__Halobacteriota
+GCA_001768675.1	range	#ff00ff	p__Actinobacteriota
+GCA_001769355.1	range	#dc143c	p__Bacteroidota
+GCA_001771285.1	range		p__Methylomirabilota
+GCA_001771705.1	range	#8b4513	p__Margulisbacteria
+GCA_001772665.1	range	#ee82ee	p__Patescibacteria
+GCA_001773455.1	range	#ee82ee	p__Patescibacteria
+GCA_001775095.1	range	#ee82ee	p__Patescibacteria
+GCA_001776975.1	range	#ee82ee	p__Patescibacteria
+GCA_001777895.1	range		p__Edwardsbacteria
+GCA_001778095.1	range	#ee82ee	p__Patescibacteria
+GCA_001778465.1	range	#ee82ee	p__Patescibacteria
+GCA_001780145.1	range	#ee82ee	p__Patescibacteria
+GCA_001782335.1	range	#ee82ee	p__Patescibacteria
+GCA_001788965.1	range	#ee82ee	p__Patescibacteria
+GCA_001789805.1	range	#ee82ee	p__Patescibacteria
+GCA_001790675.1	range		p__Schekmanbacteria
+GCA_001790815.1	range	#ee82ee	p__Patescibacteria
+GCA_001790955.1	range		p__UBA8248
+GCA_001791425.1	range	#ee82ee	p__Patescibacteria
+GCA_001791465.1	range	#ee82ee	p__Patescibacteria
+GCA_001792415.1	range	#ee82ee	p__Patescibacteria
+GCA_001794575.1	range	#ee82ee	p__Patescibacteria
+GCA_001797675.1	range	#7b68ee	p__Desulfobacterota
+GCA_001798165.1	range	#7b68ee	p__Desulfobacterota
+GCA_001798265.1	range		p__Bdellovibrionota_E
+GCA_001799195.1	range	#808000	p__Bdellovibrionota
+GCA_001800075.1	range	#9acd32	p__Elusimicrobiota
+GCA_001800185.1	range	#9acd32	p__Elusimicrobiota
+GCA_001800495.1	range	#9acd32	p__Elusimicrobiota
+GCA_001800515.1	range		p__Fibrobacterota
+GCA_001801365.1	range	#7fffd4	p__Proteobacteria
+GCA_001801435.1	range	#7fffd4	p__Proteobacteria
+GCA_001801695.1	range	#7fffd4	p__Proteobacteria
+GCA_001804165.1	range	#00ff7f	p__Omnitrophota
+GCA_001804945.1	range		p__Nitrospinota
+GCA_001805165.1	range	#db7093	p__Nitrospirota
+GCA_001816835.1	range	#ee82ee	p__Patescibacteria
+GCA_001818285.1	range	#ee82ee	p__Patescibacteria
+GCA_001818755.1	range	#ee82ee	p__Patescibacteria
+GCA_001819535.1	range	#ee82ee	p__Patescibacteria
+GCA_001820685.1	range	#ee82ee	p__Patescibacteria
+GCA_001821765.1	range	#ee82ee	p__Patescibacteria
+GCA_001824325.1	range	#ee82ee	p__Patescibacteria
+GCA_001824795.1	range	#ee82ee	p__Patescibacteria
+GCA_001829155.1	range	#7cfc00	p__Spirochaetota
+GCA_001871655.1	range		p__Micrarchaeota
+GCA_001871695.1	range		p__UBA8481
+GCA_001871755.1	range	#ffa07a	p__Chloroflexota
+GCA_001871865.1	range		p__Ratteibacteria
+GCA_001872605.1	range	#008000	p__Armatimonadota
+GCA_001873845.1	range		p__Altiarchaeota
+GCA_001889965.1	range	#ee82ee	p__Patescibacteria
+GCA_001897475.1	range	#7fffd4	p__Proteobacteria
+GCA_001898225.1	range	#ffa07a	p__Chloroflexota
+GCA_001918745.1	range	#8b008b	p__Thermoproteota
+GCA_002010635.1	range	#008080	p__WOR-3
+GCA_002010665.1	range	#6495ed	p__Acidobacteriota
+GCA_002010915.1	range	#7b68ee	p__Desulfobacterota
+GCA_002011475.1	range	#ffa07a	p__Chloroflexota
+GCA_002049825.1	range		p__Calditrichota
+GCA_002059205.1	range		p__Latescibacterota
+GCA_002068205.1	range		p__Sumerlaeota
+GCA_002069365.1	range		p__Ratteibacteria
+GCA_002069885.1	range		p__UBP15
+GCA_002070055.1	range	#ee82ee	p__Patescibacteria
+GCA_002070185.1	range		p__Sumerlaeota
+GCA_002070295.1	range		p__Latescibacterota
+GCA_002070635.1	range		p__Caldisericota
+GCA_002070645.1	range		p__Ratteibacteria
+GCA_002071305.1	range		p__Methanobacteriota_B
+GCA_002083825.1	range	#ff4500	p__Cyanobacteria
+GCA_002084765.1	range		p__4572-55
+GCA_002085385.1	range		p__UBP14
+GCA_002085445.1	range	#7fffd4	p__Proteobacteria
+GCA_002159075.1	range	#0000ff	p__Firmicutes
+GCA_002167555.2	range		p__Desulfobacterota_D
+GCA_002167825.1	range	#7fffd4	p__Proteobacteria
+GCA_002238885.1	range	#7fffd4	p__Proteobacteria
+GCA_002238905.1	range	#7fffd4	p__Proteobacteria
+GCA_002255025.1	range	#8b008b	p__Thermoproteota
+GCA_002256535.1	range	#008080	p__WOR-3
+GCA_002281735.1	range	#7fffd4	p__Proteobacteria
+GCA_002285275.1	range	#7fffd4	p__Proteobacteria
+GCA_002293855.1	range	#ee82ee	p__Patescibacteria
+GCA_002298025.1	range	#eee8aa	p__Myxococcota
+GCA_002299465.1	range	#ee82ee	p__Patescibacteria
+GCA_002307725.1	range	#7fffd4	p__Proteobacteria
+GCA_002313395.1	range	#7fffd4	p__Proteobacteria
+GCA_002313505.1	range	#7cfc00	p__Spirochaetota
+GCA_002320375.1	range		p__Fusobacteriota
+GCA_002320695.1	range	#eee8aa	p__Myxococcota
+GCA_002320775.1	range	#ff1493	p__Planctomycetota
+GCA_002322955.1	range	#00ff7f	p__Omnitrophota
+GCA_002327305.1	range	#6495ed	p__Acidobacteriota
+GCA_002328835.1	range	#6495ed	p__Acidobacteriota
+GCA_002329525.1	range	#ffa500	p__Firmicutes_C
+GCA_002329605.1	range		p__UBA1439
+GCA_002335385.1	range	#6495ed	p__Acidobacteriota
+GCA_002335495.1	range	#ee82ee	p__Patescibacteria
+GCA_002339355.1	range	#ff00ff	p__Actinobacteriota
+GCA_002340265.1	range	#ffff00	p__Verrucomicrobiota
+GCA_002340345.1	range	#7fffd4	p__Proteobacteria
+GCA_002343265.1	range	#7fffd4	p__Proteobacteria
+GCA_002345205.1	range	#808000	p__Bdellovibrionota
+GCA_002345475.1	range		p__Firmicutes_H
+GCA_002346595.1	range		p__Latescibacterota
+GCA_002347295.1	range	#ffa07a	p__Chloroflexota
+GCA_002352365.1	range	#ffa07a	p__Chloroflexota
+GCA_002352565.1	range	#7fffd4	p__Proteobacteria
+GCA_002352625.1	range	#ffa07a	p__Chloroflexota
+GCA_002352645.1	range	#ff00ff	p__Actinobacteriota
+GCA_002352935.1	range	#ffa500	p__Firmicutes_B
+GCA_002359565.1	range	#808000	p__Bdellovibrionota
+GCA_002366595.1	range	#ffa07a	p__Chloroflexota
+GCA_002366725.1	range	#008080	p__WOR-3
+GCA_002366995.1	range		p__UBA3054
+GCA_002371425.1	range	#ffa500	p__Firmicutes_A
+GCA_002375965.1	range	#ffa500	p__Firmicutes_A
+GCA_002376455.1	range	#ffa500	p__Firmicutes_E
+GCA_002389285.1	range	#ee82ee	p__Patescibacteria
+GCA_002391555.1	range	#ffa500	p__Firmicutes_A
+GCA_002392975.1	range	#9acd32	p__Elusimicrobiota
+GCA_002394055.1	range	#ffa500	p__Firmicutes_A
+GCA_002397955.1	range		p__Synergistota
+GCA_002398485.1	range	#ffa500	p__Firmicutes_B
+GCA_002400355.1	range	#9acd32	p__Elusimicrobiota
+GCA_002401425.1	range	#ee82ee	p__Patescibacteria
+GCA_002402105.1	range		p__UBP17
+GCA_002402375.1	range	#9acd32	p__Elusimicrobiota
+GCA_002404055.1	range	#ffa07a	p__Chloroflexota
+GCA_002408305.1	range	#ffa500	p__Firmicutes_B
+GCA_002409565.1	range	#7fffd4	p__Proteobacteria
+GCA_002410135.1	range	#7fffd4	p__Proteobacteria
+GCA_002410925.1	range		p__UBP13
+GCA_002411145.1	range	#ffa500	p__Firmicutes_C
+GCA_002411445.1	range	#ffa500	p__Firmicutes_G
+GCA_002413875.1	range	#dc143c	p__Bacteroidota
+GCA_002418775.1	range	#ffa500	p__Firmicutes_B
+GCA_002423325.1	range	#ffa07a	p__Chloroflexota
+GCA_002424175.1	range	#ffa500	p__Firmicutes_G
+GCA_002426275.1	range	#ffa500	p__Firmicutes_G
+GCA_002426645.1	range	#ffa500	p__Firmicutes_G
+GCA_002426705.1	range	#0000ff	p__Firmicutes
+GCA_002427435.1	range	#ffa500	p__Firmicutes_G
+GCA_002428325.1	range		p__UBP4
+GCA_002429065.1	range	#ffff00	p__Verrucomicrobiota
+GCA_002429485.1	range	#ee82ee	p__Patescibacteria
+GCA_002432655.1	range	#7fffd4	p__Proteobacteria
+GCA_002433595.1	range	#8b4513	p__Margulisbacteria
+GCA_002434245.1	range	#ffa500	p__Firmicutes_C
+GCA_002435875.1	range	#ffa07a	p__Chloroflexota
+GCA_002450015.1	range	#ff4500	p__Cyanobacteria
+GCA_002450435.1	range	#ffa07a	p__Chloroflexota
+GCA_002450905.1	range	#7cfc00	p__Spirochaetota
+GCA_002450975.1	range	#7fffd4	p__Proteobacteria
+GCA_002454015.1	range	#7fffd4	p__Proteobacteria
+GCA_002469885.1	range	#7fffd4	p__Proteobacteria
+GCA_002482545.1	range	#ffa500	p__Firmicutes_C
+GCA_002483445.1	range	#6495ed	p__Acidobacteriota
+GCA_002494765.1	range	#a9a9a9	p__Thermoplasmatota
+GCA_002495235.1	range	#a9a9a9	p__Thermoplasmatota
+GCA_002495885.1	range	#00008b	p__Halobacteriota
+GCA_002498635.1	range		p__Micrarchaeota
+GCA_002499625.1	range	#a9a9a9	p__Thermoplasmatota
+GCA_002506145.1	range	#00008b	p__Halobacteriota
+GCA_002631715.1	range	#7fffd4	p__Proteobacteria
+GCA_002632265.1	range	#7fffd4	p__Proteobacteria
+GCA_002683015.1	range	#7fffd4	p__Proteobacteria
+GCA_002684605.1	range	#7fffd4	p__Proteobacteria
+GCA_002686135.1	range	#7fffd4	p__Proteobacteria
+GCA_002686915.1	range		p__ARS69
+GCA_002686955.1	range		p__Gemmatimonadota_A
+GCA_002687025.1	range		p__Poribacteria
+GCA_002688965.1	range		p__Aenigmatarchaeota
+GCA_002693245.1	range	#7fffd4	p__Proteobacteria
+GCA_002694845.1	range	#7fffd4	p__Proteobacteria
+GCA_002701115.1	range	#7fffd4	p__Proteobacteria
+GCA_002701885.1	range	#7fffd4	p__Proteobacteria
+GCA_002704505.1	range	#7fffd4	p__Proteobacteria
+GCA_002713895.1	range		p__Poribacteria
+GCA_002714015.1	range	#7fffd4	p__Proteobacteria
+GCA_002716355.1	range		p__UBP7
+GCA_002717245.1	range	#7fffd4	p__Proteobacteria
+GCA_002717625.1	range		p__Marinisomatota
+GCA_002721365.1	range	#7fffd4	p__Proteobacteria
+GCA_002722845.1	range	#eee8aa	p__Myxococcota
+GCA_002724675.1	range		p__Myxococcota_A
+GCA_002728255.1	range	#7fffd4	p__Proteobacteria
+GCA_002728755.1	range	#eee8aa	p__Myxococcota
+GCA_002746255.1	range	#7fffd4	p__Proteobacteria
+GCA_002746535.1	range	#ff1493	p__Planctomycetota
+GCA_002748425.1	range		p__Moduliflexota
+GCA_002748965.1	range		p__Delongbacteria
+GCA_002771215.1	range	#ee82ee	p__Patescibacteria
+GCA_002772895.1	range	#ee82ee	p__Patescibacteria
+GCA_002774085.1	range	#ee82ee	p__Patescibacteria
+GCA_002774225.1	range	#ee82ee	p__Patescibacteria
+GCA_002779155.1	range		p__Atribacterota
+GCA_002779395.1	range	#dc143c	p__Bacteroidota
+GCA_002779825.1	range	#008000	p__Armatimonadota
+GCA_002780305.1	range	#ee82ee	p__Patescibacteria
+GCA_002781445.1	range		p__CG2-30-53-67
+GCA_002783265.1	range	#ee82ee	p__Patescibacteria
+GCA_002784465.1	range	#ee82ee	p__Patescibacteria
+GCA_002784945.1	range	#ee82ee	p__Patescibacteria
+GCA_002785185.1	range	#00ff7f	p__Omnitrophota
+GCA_002785205.1	range	#00ff7f	p__Omnitrophota
+GCA_002785215.1	range	#ee82ee	p__Patescibacteria
+GCA_002785325.1	range	#ee82ee	p__Patescibacteria
+GCA_002785465.1	range		p__Desantisbacteria
+GCA_002787095.1	range	#00ff7f	p__Omnitrophota
+GCA_002787535.1	range	#808000	p__Bdellovibrionota
+GCA_002789815.1	range	#ee82ee	p__Patescibacteria
+GCA_002789985.1	range		p__Desulfobacterota_E
+GCA_002790275.1	range	#ee82ee	p__Patescibacteria
+GCA_002791575.1	range	#7fffd4	p__Proteobacteria
+GCA_002792135.1	range	#ee82ee	p__Patescibacteria
+GCA_002792575.1	range	#ee82ee	p__Patescibacteria
+GCA_002792735.1	range	#ee82ee	p__Patescibacteria
+GCA_002793495.1	range	#7fffd4	p__Proteobacteria
+GCA_002796305.1	range		p__UBA10199
+GCA_002796345.1	range		p__UBA10199
+GCA_002839445.1	range		p__Riflebacteria
+GCA_002841595.1	range	#ffa500	p__Firmicutes_B
+GCA_002841695.1	range	#9acd32	p__Elusimicrobiota
+GCA_002843005.1	range	#ff00ff	p__Actinobacteriota
+GCA_002868855.1	range	#7fffd4	p__Proteobacteria
+GCA_002869015.1	range		p__Desulfobacterota_C
+GCA_002869225.1	range		p__Muirbacteria
+GCA_002897795.1	range	#7fffd4	p__Proteobacteria
+GCA_002898195.1	range		p__AABM5-125-24
+GCA_002898535.1	range	#6495ed	p__Acidobacteriota
+GCA_002898955.1	range	#7fffd4	p__Proteobacteria
+GCA_002923295.1	range	#6495ed	p__Acidobacteriota
+GCA_002937705.1	range	#7fffd4	p__Proteobacteria
+GCA_003019595.1	range	#8b008b	p__Thermoproteota
+GCA_003022365.1	range	#ee82ee	p__Patescibacteria
+GCA_003023625.1	range	#ffa500	p__Firmicutes_E
+GCA_003050525.1	range	#0000ff	p__Firmicutes
+GCA_003131635.1	range	#6495ed	p__Acidobacteriota
+GCA_003134755.1	range	#ff00ff	p__Actinobacteriota
+GCA_003138485.1	range	#ffff00	p__Verrucomicrobiota
+GCA_003141835.1	range	#00ff7f	p__Omnitrophota
+GCA_003142155.1	range		p__Goldbacteria
+GCA_003153125.1	range		p__Dormibacterota
+GCA_003155855.1	range	#00008b	p__Halobacteriota
+GCA_003157775.1	range	#eee8aa	p__Myxococcota
+GCA_003163255.1	range		p__FCPU426
+GCA_003167115.1	range	#ffff00	p__Verrucomicrobiota
+GCA_003168175.1	range		p__Desulfobacterota_B
+GCA_003168615.1	range	#ffff00	p__Verrucomicrobiota
+GCA_003170555.1	range		p__FEN-1099
+GCA_003171215.1	range		p__Gemmatimonadota
+GCA_003222275.1	range	#6495ed	p__Acidobacteriota
+GCA_003223995.1	range	#6495ed	p__Acidobacteriota
+GCA_003225295.1	range	#6495ed	p__Acidobacteriota
+GCA_003228115.1	range	#ffa07a	p__Chloroflexota
+GCA_003229375.1	range		p__Nitrospinota
+GCA_003230535.1	range		p__SZUA-182
+GCA_003230545.1	range	#7fffd4	p__Proteobacteria
+GCA_003230795.1	range		p__Bdellovibrionota_C
+GCA_003233075.1	range	#7fffd4	p__Proteobacteria
+GCA_003235715.1	range	#db7093	p__Nitrospirota
+GCA_003241475.1	range	#7fffd4	p__Proteobacteria
+GCA_003242675.1	range	#ffa500	p__Firmicutes_E
+GCA_003244175.1	range	#ffa07a	p__Chloroflexota
+GCA_003252225.1	range	#ffff00	p__Verrucomicrobiota
+GCA_003260325.1	range	#ee82ee	p__Patescibacteria
+GCA_003281645.1	range	#ff4500	p__Cyanobacteria
+GCA_003332345.1	range	#7fffd4	p__Proteobacteria
+GCA_003353785.1	range	#7fffd4	p__Proteobacteria
+GCA_003354005.1	range	#7fffd4	p__Proteobacteria
+GCA_003449495.1	range	#ffa500	p__Firmicutes_E
+GCA_003476045.1	range		p__Desulfobacterota_G
+GCA_003477185.1	range	#ffff00	p__Verrucomicrobiota
+GCA_003484385.1	range	#ee82ee	p__Patescibacteria
+GCA_003485015.1	range		p__UBA9089
+GCA_003485365.1	range	#008080	p__WOR-3
+GCA_003485605.1	range		p__Chlamydiota
+GCA_003486825.1	range	#7b68ee	p__Desulfobacterota
+GCA_003488345.1	range		p__Wallbacteria
+GCA_003490035.1	range		p__Desulfobacterota_B
+GCA_003497555.1	range	#7cfc00	p__Spirochaetota
+GCA_003498085.1	range		p__UBA9089
+GCA_003504095.1	range		p__Eremiobacterota
+GCA_003508865.1	range	#ee82ee	p__Patescibacteria
+GCA_003519425.1	range	#ee82ee	p__Patescibacteria
+GCA_003521695.1	range	#7fffd4	p__Proteobacteria
+GCA_003528305.1	range		p__Bdellovibrionota_E
+GCA_003534415.1	range	#ffa500	p__Firmicutes_G
+GCA_003534775.1	range	#7fffd4	p__Proteobacteria
+GCA_003535395.1	range	#ffa500	p__Firmicutes_A
+GCA_003537615.1	range	#8b4513	p__Margulisbacteria
+GCA_003541445.1	range	#ffa500	p__Firmicutes_E
+GCA_003550445.1	range	#ffa500	p__Firmicutes_F
+GCA_003553655.1	range	#ffa500	p__Firmicutes_D
+GCA_003554345.1	range		p__T1SED10-198M
+GCA_003554705.1	range	#7b68ee	p__Desulfobacterota
+GCA_003554945.1	range		p__T1Sed10-126
+GCA_003556305.1	range	#ff4500	p__Cyanobacteria
+GCA_003558125.1	range	#7fffd4	p__Proteobacteria
+GCA_003558145.1	range		p__CG03
+GCA_003558235.1	range		p__B1Sed10-29
+GCA_003558855.1	range	#ffa500	p__Firmicutes_D
+GCA_003559755.1	range	#ff1493	p__Planctomycetota
+GCA_003561965.1	range		p__PUNC01
+GCA_003562655.1	range	#ffa500	p__Firmicutes_E
+GCA_003562815.1	range	#7fffd4	p__Proteobacteria
+GCA_003563855.1	range	#ffff00	p__Verrucomicrobiota
+GCA_003563915.1	range	#ff00ff	p__Actinobacteriota
+GCA_003566815.1	range		p__Caldisericota
+GCA_003567575.1	range	#ffff00	p__Verrucomicrobiota
+GCA_003568415.1	range	#dc143c	p__Bacteroidota
+GCA_003576705.1	range	#7fffd4	p__Proteobacteria
+GCA_003577105.1	range	#ff00ff	p__Actinobacteriota
+GCA_003598065.1	range	#eee8aa	p__Myxococcota
+GCA_003598085.1	range		p__Abyssubacteria
+GCA_003599335.1	range	#ee82ee	p__Patescibacteria
+GCA_003599365.1	range	#7b68ee	p__Desulfobacterota
+GCA_003599485.1	range	#7fffd4	p__Proteobacteria
+GCA_003599745.1	range	#ffa07a	p__Chloroflexota
+GCA_003599855.1	range	#ff00ff	p__Actinobacteriota
+GCA_003641465.1	range	#ffff00	p__Verrucomicrobiota
+GCA_003641545.1	range		p__Thermotogota
+GCA_003641795.1	range		p__Thermotogota
+GCA_003644265.1	range	#ff1493	p__Planctomycetota
+GCA_003644275.1	range	#ff1493	p__Planctomycetota
+GCA_003644325.1	range	#ff1493	p__Planctomycetota
+GCA_003644715.1	range		p__Latescibacterota
+GCA_003644825.1	range		p__SM23-31
+GCA_003645085.1	range		p__UBP14
+GCA_003645455.1	range	#7fffd4	p__Proteobacteria
+GCA_003645645.1	range	#7cfc00	p__Spirochaetota
+GCA_003645735.1	range		p__Poribacteria
+GCA_003645745.1	range	#00ff7f	p__Omnitrophota
+GCA_003645805.1	range	#00ff7f	p__Omnitrophota
+GCA_003646705.1	range	#7b68ee	p__Desulfobacterota
+GCA_003646715.1	range	#7b68ee	p__Desulfobacterota
+GCA_003647095.1	range	#eee8aa	p__Myxococcota
+GCA_003647745.1	range		p__RBG-13-66-14
+GCA_003647755.1	range		p__B130-G9
+GCA_003649155.1	range	#8b008b	p__Thermoproteota
+GCA_003649695.1	range	#a9a9a9	p__Thermoplasmatota
+GCA_003650255.1	range		p__CG03
+GCA_003650285.1	range		p__Caldisericota
+GCA_003650975.1	range	#a9a9a9	p__Thermoplasmatota
+GCA_003660555.1	range		p__Hadarchaeota
+GCA_003661605.2	range	#8b008b	p__Thermoproteota
+GCA_003662305.1	range	#8b008b	p__Thermoproteota
+GCA_003694425.1	range	#7fffd4	p__Proteobacteria
+GCA_003694635.1	range	#ff1493	p__Planctomycetota
+GCA_003694875.1	range	#ff1493	p__Planctomycetota
+GCA_003695505.1	range		p__J088
+GCA_003695705.1	range	#ff1493	p__Planctomycetota
+GCA_003695825.1	range	#7fffd4	p__Proteobacteria
+GCA_003696125.1	range		p__Tectomicrobia
+GCA_003696465.1	range	#7fffd4	p__Proteobacteria
+GCA_003696505.1	range		p__Desulfobacterota_E
+GCA_003696645.1	range	#7fffd4	p__Proteobacteria
+GCA_003696835.1	range	#dc143c	p__Bacteroidota
+GCA_003697105.1	range		p__4572-55
+GCA_003864455.1	range	#8b4513	p__Margulisbacteria
+GCA_003978555.1	range		p__Aquificota
+GCA_004212035.1	range	#00008b	p__Halobacteriota
+GCA_004293915.1	range	#dc143c	p__Bacteroidota
+GCA_004295055.1	range	#7fffd4	p__Proteobacteria
+GCA_004297765.1	range	#ffa07a	p__Chloroflexota
+GCA_004298615.1	range	#ee82ee	p__Patescibacteria
+GCA_004356015.1	range	#6495ed	p__Acidobacteriota
+GCA_004356335.1	range	#7fffd4	p__Proteobacteria
+GCA_004356505.1	range		p__Myxococcota_A
+GCA_004356555.1	range		p__Desulfobacterota_D
+GCA_004357015.1	range		p__KSB1
+GCA_004357505.1	range	#7fffd4	p__Proteobacteria
+GCA_004366965.1	range	#ffa500	p__Firmicutes_E
+GCA_004367365.1	range	#ffa500	p__Firmicutes_E
+GCA_004374725.1	range	#ee82ee	p__Patescibacteria
+GCA_004375785.1	range	#008080	p__WOR-3
+GCA_004376375.1	range	#ff1493	p__Planctomycetota
+GCA_004376575.1	range		p__TA06
+GCA_004377355.1	range	#008080	p__WOR-3
+GCA_004377365.1	range	#ffa07a	p__Chloroflexota
+GCA_004402915.1	range		p__Marinisomatota
+GCA_004525935.1	range	#ffff00	p__Verrucomicrobiota
+GCA_004796385.1	range	#7fffd4	p__Proteobacteria
+GCA_004963395.1	range	#7fffd4	p__Proteobacteria
+GCA_005110385.1	range	#ff4500	p__Cyanobacteria
+GCA_005239895.1	range	#ee82ee	p__Patescibacteria
+GCA_005776585.1	range	#eee8aa	p__Myxococcota
+GCA_005882525.1	range		p__Dormibacterota
+GCA_005883885.1	range	#ff00ff	p__Actinobacteriota
+GCA_005884515.1	range	#ff00ff	p__Actinobacteriota
+GCA_005887685.1	range		p__Dormibacterota
+GCA_005888095.1	range		p__Desulfobacterota_B
+GCA_005888425.1	range	#7fffd4	p__Proteobacteria
+GCA_005889295.1	range	#ffa07a	p__Chloroflexota
+GCA_005893165.1	range		p__Eisenbacteria
+GCA_006844605.1	range	#7fffd4	p__Proteobacteria
+GCA_006954445.1	range	#a9a9a9	p__Thermoplasmatota
+GCA_007116075.1	range	#7cfc00	p__Spirochaetota
+GCA_007124775.1	range	#ffff00	p__Verrucomicrobiota
+GCA_007125875.1	range	#ffff00	p__Verrucomicrobiota
+GCA_007127155.1	range	#eee8aa	p__Myxococcota
+GCA_007127275.1	range	#ff1493	p__Planctomycetota
+GCA_007128675.1	range	#eee8aa	p__Myxococcota
+GCA_007128895.1	range	#7fffd4	p__Proteobacteria
+GCA_007131765.1	range	#7fffd4	p__Proteobacteria
+GCA_007131925.1	range	#ff1493	p__Planctomycetota
+GCA_007132905.1	range		p__SLNR01
+GCA_007133495.1	range		p__Sumerlaeota
+GCA_007136165.1	range	#ffa500	p__Firmicutes_D
+GCA_007280345.1	range	#7b68ee	p__Desulfobacterota
+GCA_007280895.1	range	#7fffd4	p__Proteobacteria
+GCA_007376335.1	range	#ee82ee	p__Patescibacteria
+GCA_007571325.1	range		p__Desulfobacterota_D
+GCA_007695115.1	range	#ffa07a	p__Chloroflexota
+GCA_007748055.1	range	#ff1493	p__Planctomycetota
+GCA_008012315.1	range	#7fffd4	p__Proteobacteria
+GCA_008086245.1	range		p__Mcinerneyibacteriota
+GCA_008501735.1	range		p__CLD3
+GCA_008534395.1	range		p__SZUA-79
+GCA_008975185.1	range	#7fffd4	p__Proteobacteria
+GCA_009377665.1	range	#ffa07a	p__Chloroflexota
+GCA_009391575.1	range	#ffa07a	p__Chloroflexota
+GCA_009392005.1	range	#ffa07a	p__Chloroflexota
+GCA_009659955.1	range		p__Campylobacterota
+GCA_009691435.1	range	#ee82ee	p__Patescibacteria
+GCA_009692925.1	range	#ffa07a	p__Chloroflexota
+GCA_009692945.1	range	#ffa07a	p__Chloroflexota
+GCA_009693015.1	range	#ffa07a	p__Chloroflexota
+GCA_009693105.1	range	#ffa07a	p__Chloroflexota
+GCA_009693165.1	range	#ffa07a	p__Chloroflexota
+GCA_009694085.1	range	#7fffd4	p__Proteobacteria
+GCA_009694185.1	range	#7fffd4	p__Proteobacteria
+GCA_009694805.1	range		p__Latescibacterota
+GCA_009711825.1	range	#ffa500	p__Firmicutes_D
+GCA_009758285.1	range	#a9a9a9	p__Thermoplasmatota
+GCA_009773435.1	range	#7fffd4	p__Proteobacteria
+GCA_009777515.1	range	#ffa500	p__Firmicutes_A
+GCA_009780035.1	range	#7fffd4	p__Proteobacteria
+GCA_009781565.1	range	#ff00ff	p__Actinobacteriota
+GCA_009783675.1	range		p__Firmicutes_H
+GCA_009783805.1	range	#ffa500	p__Firmicutes_A
+GCA_009835595.1	range	#7fffd4	p__Proteobacteria
+GCA_009835825.1	range	#ffa07a	p__Chloroflexota
+GCA_009836325.1	range		p__Latescibacterota
+GCA_009836525.1	range	#7fffd4	p__Proteobacteria
+GCA_009836695.1	range	#ffa07a	p__Chloroflexota
+GCA_009837665.1	range	#dc143c	p__Bacteroidota
+GCA_009839925.1	range	#ffa07a	p__Chloroflexota
+GCA_009842065.1	range	#6495ed	p__Acidobacteriota
+GCA_009845855.1	range		p__Gemmatimonadota
+GCA_009845905.1	range	#7fffd4	p__Proteobacteria
+GCA_009885355.1	range	#ee82ee	p__Patescibacteria
+GCA_009926025.1	range	#7fffd4	p__Proteobacteria
+GCA_009926615.1	range	#808000	p__Bdellovibrionota
+GCA_009927055.1	range	#7fffd4	p__Proteobacteria
+GCA_009927275.1	range	#dc143c	p__Bacteroidota
+GCA_009929845.1	range	#ffff00	p__Verrucomicrobiota
+GCA_009930175.1	range	#ffa500	p__Firmicutes_B
+GCA_009937385.1	range	#7fffd4	p__Proteobacteria
+GCA_009937625.1	range	#7fffd4	p__Proteobacteria
+GCA_009937645.1	range	#ee82ee	p__Patescibacteria
+GCA_009991595.1	range	#808000	p__Bdellovibrionota
+GCA_009993245.1	range	#ff00ff	p__Actinobacteriota
+GCA_009993275.1	range		p__CG2-30-70-394
+GCA_009993695.1	range	#ee82ee	p__Patescibacteria
+GCA_009995085.1	range		p__Iainarchaeota
+GCA_009996705.1	range	#7fffd4	p__Proteobacteria
+GCA_010026625.1	range	#7fffd4	p__Proteobacteria
+GCA_010028905.1	range		p__Eremiobacterota
+GCA_010029555.1	range		p__Chlamydiota
+GCA_011040875.1	range		p__BMS3Abin14
+GCA_011041895.1	range	#8b008b	p__Thermoproteota
+GCA_011042415.1	range	#8b008b	p__Thermoproteota
+GCA_011046015.1	range	#7fffd4	p__Proteobacteria
+GCA_011046085.1	range	#ff00ff	p__Actinobacteriota
+GCA_011046315.1	range		p__KSB1
+GCA_011049045.1	range	#00008b	p__Halobacteriota
+GCA_011049115.1	range		p__Desulfobacterota_C
+GCA_011051015.1	range	#00ff7f	p__Omnitrophota
+GCA_011051635.1	range	#ffa07a	p__Chloroflexota
+GCA_011052255.1	range	#7fffd4	p__Proteobacteria
+GCA_011064725.1	range		p__Chlamydiota
+GCA_011087955.1	range	#808000	p__Bdellovibrionota
+GCA_011192195.1	range	#ffa07a	p__Chloroflexota
+GCA_011321775.1	range	#7fffd4	p__Proteobacteria
+GCA_011321985.1	range	#7fffd4	p__Proteobacteria
+GCA_011330835.1	range	#7fffd4	p__Proteobacteria
+GCA_011372105.1	range		p__Aerophobota
+GCA_011375345.1	range	#7fffd4	p__Proteobacteria
+GCA_011389995.1	range	#7fffd4	p__Proteobacteria
+GCA_011524535.1	range	#7cfc00	p__Spirochaetota
+GCA_011526005.1	range	#7fffd4	p__Proteobacteria
+GCA_011526105.1	range	#eee8aa	p__Myxococcota
+GCA_011620345.1	range		p__UBA2233
+GCA_011682385.1	range	#ff1493	p__Planctomycetota
+GCA_011772305.1	range	#7fffd4	p__Proteobacteria
+GCA_011772385.1	range	#008000	p__Armatimonadota
+GCA_011772495.1	range	#6495ed	p__Acidobacteriota
+GCA_011773355.1	range		p__UBA6262
+GCA_011773645.1	range		p__Krumholzibacteriota
+GCA_011773985.1	range		p__RBG-13-66-14
+GCA_012031145.1	range	#ff4500	p__Cyanobacteria
+GCA_012031925.1	range	#ee82ee	p__Patescibacteria
+GCA_012103255.1	range	#6495ed	p__Acidobacteriota
+GCA_012103495.1	range	#7fffd4	p__Proteobacteria
+GCA_012267605.1	range	#7fffd4	p__Proteobacteria
+GCA_012270555.1	range	#ffa07a	p__Chloroflexota
+GCA_012270635.1	range	#ffa07a	p__Chloroflexota
+GCA_012270975.1	range		p__JAAXHH01
+GCA_012270995.1	range	#6495ed	p__Acidobacteriota
+GCA_012512505.1	range	#008000	p__Armatimonadota
+GCA_012513365.1	range	#7fffd4	p__Proteobacteria
+GCA_012514555.1	range	#ffff00	p__Verrucomicrobiota
+GCA_012516115.1	range	#ffa500	p__Firmicutes_G
+GCA_012516175.1	range	#0000ff	p__Firmicutes
+GCA_012517545.1	range	#7cfc00	p__Spirochaetota
+GCA_012517755.1	range		p__Caldisericota
+GCA_012517955.1	range		p__Zixibacteria
+GCA_012518355.1	range	#008000	p__Armatimonadota
+GCA_012518545.1	range	#ffa500	p__Firmicutes_G
+GCA_012519325.1	range	#ffa500	p__Firmicutes_A
+GCA_012520135.1	range	#ffa500	p__Firmicutes_B
+GCA_012521315.1	range	#ffa500	p__Firmicutes_G
+GCA_012522135.1	range	#ffa500	p__Firmicutes_G
+GCA_012523465.1	range	#7fffd4	p__Proteobacteria
+GCA_012523975.1	range	#ffa500	p__Firmicutes_C
+GCA_012689325.1	range	#ffa07a	p__Chloroflexota
+GCA_012719455.1	range	#6495ed	p__Acidobacteriota
+GCA_012719935.1	range	#ffa500	p__Firmicutes_A
+GCA_012735505.1	range		p__Firmicutes_H
+GCA_012735535.1	range	#ffa500	p__Firmicutes_G
+GCA_012744235.1	range	#ffa500	p__Firmicutes_A
+GCA_012797735.1	range	#eee8aa	p__Myxococcota
+GCA_012799075.1	range	#ffa500	p__Firmicutes_G
+GCA_012838995.1	range	#ffa500	p__Firmicutes_A
+GCA_012839445.1	range		p__DTU030
+GCA_012839765.1	range	#ffa500	p__Firmicutes_G
+GCA_012839805.1	range	#ffa500	p__Firmicutes_G
+GCA_012840015.1	range	#ffa500	p__Firmicutes_E
+GCA_012840065.1	range	#ffa500	p__Firmicutes_C
+GCA_012840385.1	range	#ffa500	p__Firmicutes_B
+GCA_012841065.1	range	#ffa500	p__Firmicutes_E
+GCA_012841575.1	range	#ee82ee	p__Patescibacteria
+GCA_012842325.1	range		p__DTU030
+GCA_012842395.1	range	#ffa500	p__Firmicutes_G
+GCA_012842575.1	range	#ffa500	p__Firmicutes_E
+GCA_012960035.1	range		p__Myxococcota_A
+GCA_012961305.1	range	#008000	p__Armatimonadota
+GCA_012962505.1	range	#ffa07a	p__Chloroflexota
+GCA_012962595.1	range	#7b68ee	p__Desulfobacterota
+GCA_012962735.1	range		p__Latescibacterota
+GCA_012963965.1	range	#7fffd4	p__Proteobacteria
+GCA_013001575.1	range	#7fffd4	p__Proteobacteria
+GCA_013002045.1	range	#7fffd4	p__Proteobacteria
+GCA_013003115.1	range	#7fffd4	p__Proteobacteria
+GCA_013003415.1	range		p__Eisenbacteria
+GCA_013044245.1	range	#7cfc00	p__Spirochaetota
+GCA_013138615.1	range		p__Asgardarchaeota
+GCA_013139225.1	range	#7b68ee	p__Desulfobacterota
+GCA_013151035.1	range	#7fffd4	p__Proteobacteria
+GCA_013151555.1	range		p__NPL-UPA2
+GCA_013151745.1	range	#7fffd4	p__Proteobacteria
+GCA_013151795.1	range	#7fffd4	p__Proteobacteria
+GCA_013151875.1	range	#eee8aa	p__Myxococcota
+GCA_013152105.1	range		p__Myxococcota_A
+GCA_013152135.1	range	#dc143c	p__Bacteroidota
+GCA_013152165.1	range	#ee82ee	p__Patescibacteria
+GCA_013152295.1	range	#7fffd4	p__Proteobacteria
+GCA_013152385.1	range	#6495ed	p__Acidobacteriota
+GCA_013152435.1	range	#ffa07a	p__Chloroflexota
+GCA_013152475.1	range	#ff1493	p__Planctomycetota
+GCA_013152825.1	range		p__CAIJMQ01
+GCA_013152945.1	range	#eee8aa	p__Myxococcota
+GCA_013152955.1	range		p__Campylobacterota
+GCA_013154035.1	range		p__Iainarchaeota
+GCA_013154135.1	range	#ffa07a	p__Chloroflexota
+GCA_013177805.1	range		p__OLB16
+GCA_013178045.1	range	#ffa500	p__Firmicutes_B
+GCA_013178125.1	range	#ffa500	p__Firmicutes_G
+GCA_013202185.1	range	#ff1493	p__Planctomycetota
+GCA_013202205.1	range	#00ff7f	p__Omnitrophota
+GCA_013202525.1	range	#00ff7f	p__Omnitrophota
+GCA_013203085.1	range		p__JABMQX01
+GCA_013203355.1	range	#00ff7f	p__Omnitrophota
+GCA_013203365.1	range	#ff1493	p__Planctomycetota
+GCA_013203415.1	range	#ee82ee	p__Patescibacteria
+GCA_013203855.1	range		p__Sumerlaeota
+GCA_013215865.1	range	#8b4513	p__Margulisbacteria
+GCA_013215875.1	range	#ffff00	p__Verrucomicrobiota
+GCA_013287405.1	range	#808000	p__Bdellovibrionota
+GCA_013287845.1	range	#7fffd4	p__Proteobacteria
+GCA_013289085.1	range	#7fffd4	p__Proteobacteria
+GCA_013290045.1	range	#a9a9a9	p__Thermoplasmatota
+GCA_013314795.1	range		p__Atribacterota
+GCA_013329505.1	range	#a9a9a9	p__Thermoplasmatota
+GCA_013335425.1	range		p__FCPU426
+GCA_013336065.1	range	#db7093	p__Nitrospirota
+GCA_013336165.1	range	#ff00ff	p__Actinobacteriota
+GCA_013348725.1	range	#7fffd4	p__Proteobacteria
+GCA_013360285.1	range	#eee8aa	p__Myxococcota
+GCA_013360915.1	range	#dc143c	p__Bacteroidota
+GCA_013360945.1	range	#ff1493	p__Planctomycetota
+GCA_013373515.1	range	#7fffd4	p__Proteobacteria
+GCA_013388435.1	range	#db7093	p__Nitrospirota
+GCA_013388845.1	range	#ffa07a	p__Chloroflexota
+GCA_013389075.1	range	#7fffd4	p__Proteobacteria
+GCA_013414725.1	range	#7fffd4	p__Proteobacteria
+GCA_013626165.1	range	#00ff7f	p__Omnitrophota
+GCA_013695255.1	range	#ffa07a	p__Chloroflexota
+GCA_013695765.1	range	#7fffd4	p__Proteobacteria
+GCA_013695835.1	range	#ff00ff	p__Actinobacteriota
+GCA_013696835.1	range		p__Gemmatimonadota
+GCA_013696915.1	range	#ff00ff	p__Actinobacteriota
+GCA_013697045.1	range	#7fffd4	p__Proteobacteria
+GCA_013697395.1	range	#ffa07a	p__Chloroflexota
+GCA_013698395.1	range	#ff00ff	p__Actinobacteriota
+GCA_013791675.1	range		p__CG03
+GCA_013816485.1	range	#ff1493	p__Planctomycetota
+GCA_013817245.1	range	#7fffd4	p__Proteobacteria
+GCA_013817465.1	range	#7fffd4	p__Proteobacteria
+GCA_014055525.1	range	#db7093	p__Nitrospirota
+GCA_014238205.1	range	#ff1493	p__Planctomycetota
+GCA_014238315.1	range	#7fffd4	p__Proteobacteria
+GCA_014238345.1	range	#7fffd4	p__Proteobacteria
+GCA_014238595.1	range	#eee8aa	p__Myxococcota
+GCA_014240275.1	range	#ee82ee	p__Patescibacteria
+GCA_014240375.1	range	#ff1493	p__Planctomycetota
+GCA_014323835.1	range	#7fffd4	p__Proteobacteria
+GCA_014324045.1	range	#7fffd4	p__Proteobacteria
+GCA_014359565.1	range	#7fffd4	p__Proteobacteria
+GCA_014360055.1	range	#ffa500	p__Firmicutes_E
+GCA_014360465.1	range		p__JACIXR01
+GCA_014360645.1	range	#ff00ff	p__Actinobacteriota
+GCA_014360845.1	range	#ffa07a	p__Chloroflexota
+GCA_014360855.1	range	#ffa07a	p__Chloroflexota
+GCA_014360945.1	range		p__Bipolaricaulota
+GCA_014361165.1	range	#00008b	p__Halobacteriota
+GCA_014377495.1	range	#ff4500	p__Cyanobacteria
+GCA_014379585.1	range	#ff4500	p__Cyanobacteria
+GCA_014382495.1	range		p__Cloacimonadota
+GCA_014383605.1	range	#ffa07a	p__Chloroflexota
+GCA_014728185.1	range		p__RBG-13-66-14
+GCA_014728245.1	range		p__VGIX01
+GCA_014728525.1	range		p__Dependentiae
+GCA_014729025.1	range	#ee82ee	p__Patescibacteria
+GCA_014729895.1	range		p__Eisenbacteria
+GCA_014730175.1	range		p__Zixibacteria
+GCA_014730235.1	range		p__Poribacteria
+GCA_014859085.1	range	#008080	p__WOR-3
+GCA_014874385.1	range	#ffa07a	p__Chloroflexota
+GCA_014874485.1	range	#ffa07a	p__Chloroflexota
+GCA_014879435.1	range	#7fffd4	p__Proteobacteria
+GCA_014879555.1	range	#dc143c	p__Bacteroidota
+GCA_014879665.1	range	#ffa07a	p__Chloroflexota
+GCA_014879765.1	range	#ffa07a	p__Chloroflexota
+GCA_014896355.1	range	#ffa500	p__Firmicutes_G
+GCA_014896375.1	range	#ffa500	p__Firmicutes_E
+GCA_014896485.1	range	#0000ff	p__Firmicutes
+GCA_014896575.1	range	#ffa500	p__Firmicutes_B
+GCA_014896945.1	range	#7fffd4	p__Proteobacteria
+GCA_015056545.1	range	#ffa500	p__Firmicutes_A
+GCA_015068905.1	range	#ffa500	p__Firmicutes_A
+GCA_015068925.1	range	#ffa500	p__Firmicutes_A
+GCA_015075175.1	range		p__OLB16
+GCA_015075375.1	range	#ff1493	p__Planctomycetota
+GCA_015075515.1	range	#ff1493	p__Planctomycetota
+GCA_015075745.1	range	#ff1493	p__Planctomycetota
+GCA_015122065.1	range		p__Nanoarchaeota
+GCA_015163845.1	range	#7fffd4	p__Proteobacteria
+GCA_015222405.1	range	#ffa07a	p__Chloroflexota
+GCA_015222755.1	range	#7b68ee	p__Desulfobacterota
+GCA_015231345.1	range	#ff1493	p__Planctomycetota
+GCA_015231655.1	range	#7b68ee	p__Desulfobacterota
+GCA_015233235.1	range	#00ff7f	p__Omnitrophota
+GCA_015234015.1	range	#7fffd4	p__Proteobacteria
+GCA_015272465.1	range	#ff4500	p__Cyanobacteria
+GCA_015272495.1	range	#ff4500	p__Cyanobacteria
+GCA_015278175.1	range	#7fffd4	p__Proteobacteria
+GCA_015484715.1	range	#ffa07a	p__Chloroflexota
+GCA_015484945.1	range	#7fffd4	p__Proteobacteria
+GCA_015485455.1	range	#ff1493	p__Planctomycetota
+GCA_015485655.1	range	#ee82ee	p__Patescibacteria
+GCA_015486055.1	range	#6495ed	p__Acidobacteriota
+GCA_015486095.1	range		p__Thermotogota
+GCA_015486235.1	range	#ffa07a	p__Chloroflexota
+GCA_015486285.1	range	#7b68ee	p__Desulfobacterota
+GCA_015486675.1	range	#7b68ee	p__Desulfobacterota
+GCA_015486685.1	range	#008080	p__WOR-3
+GCA_015486815.1	range	#ff1493	p__Planctomycetota
+GCA_015486855.1	range	#7cfc00	p__Spirochaetota
+GCA_015486955.1	range		p__Campylobacterota
+GCA_015487535.1	range		p__Aquificota
+GCA_015487895.1	range	#7fffd4	p__Proteobacteria
+GCA_015488025.1	range		p__KSB1
+GCA_015488555.1	range	#7fffd4	p__Proteobacteria
+GCA_015489595.1	range	#ee82ee	p__Patescibacteria
+GCA_015490255.1	range	#008080	p__WOR-3
+GCA_015490395.1	range	#7fffd4	p__Proteobacteria
+GCA_015490555.1	range	#008080	p__WOR-3
+GCA_015490705.1	range	#7fffd4	p__Proteobacteria
+GCA_015491235.1	range	#ffa07a	p__Chloroflexota
+GCA_015491535.1	range	#7b68ee	p__Desulfobacterota
+GCA_015491815.1	range	#7fffd4	p__Proteobacteria
+GCA_015492395.1	range	#7b68ee	p__Desulfobacterota
+GCA_015492605.1	range	#7fffd4	p__Proteobacteria
+GCA_015492695.1	range	#7fffd4	p__Proteobacteria
+GCA_015492775.1	range	#7fffd4	p__Proteobacteria
+GCA_015493505.1	range		p__Desulfobacterota_C
+GCA_015494465.1	range	#00ff7f	p__Omnitrophota
+GCA_015494645.1	range		p__Thermosulfidibacterota
+GCA_015520975.1	range	#a9a9a9	p__Thermoplasmatota
+GCA_015521565.1	range		p__Hydrothermarchaeota
+GCA_015521825.1	range		p__Aenigmatarchaeota
+GCA_015522495.1	range		p__B1Sed10-29
+GCA_015522885.1	range	#a9a9a9	p__Thermoplasmatota
+GCA_015659975.1	range	#db7093	p__Nitrospirota
+GCA_015660205.1	range	#ff00ff	p__Actinobacteriota
+GCA_015711795.1	range	#ff00ff	p__Actinobacteriota
+GCA_016124415.1	range	#7fffd4	p__Proteobacteria
+GCA_016125375.1	range	#7fffd4	p__Proteobacteria
+GCA_016176845.1	range		p__Nitrospinota_B
+GCA_016177145.1	range	#00ff7f	p__Omnitrophota
+GCA_016177245.1	range	#ee82ee	p__Patescibacteria
+GCA_016178505.1	range	#ff1493	p__Planctomycetota
+GCA_016178585.1	range	#db7093	p__Nitrospirota
+GCA_016179685.1	range	#ff1493	p__Planctomycetota
+GCA_016180425.1	range	#9acd32	p__Elusimicrobiota
+GCA_016180645.1	range		p__JACPQY01
+GCA_016180815.1	range	#9acd32	p__Elusimicrobiota
+GCA_016180965.1	range		p__Aenigmatarchaeota
+GCA_016182365.1	range	#ee82ee	p__Patescibacteria
+GCA_016182525.1	range	#ee82ee	p__Patescibacteria
+GCA_016183425.1	range	#ffa07a	p__Chloroflexota
+GCA_016183865.1	range		p__Eremiobacterota
+GCA_016183885.1	range		p__Eremiobacterota
+GCA_016183895.1	range		p__CSP1-3
+GCA_016186045.1	range	#ee82ee	p__Patescibacteria
+GCA_016186995.1	range		p__Bdellovibrionota_E
+GCA_016187225.1	range	#ee82ee	p__Patescibacteria
+GCA_016188355.1	range	#ee82ee	p__Patescibacteria
+GCA_016188575.1	range		p__CSSED10-310
+GCA_016188605.1	range	#ee82ee	p__Patescibacteria
+GCA_016188765.1	range	#ee82ee	p__Patescibacteria
+GCA_016188775.1	range	#ee82ee	p__Patescibacteria
+GCA_016188915.1	range	#ee82ee	p__Patescibacteria
+GCA_016189825.1	range	#ffa07a	p__Chloroflexota
+GCA_016189835.1	range		p__Desulfobacterota_B
+GCA_016190005.1	range		p__UBP17
+GCA_016190025.1	range		p__UBA8248
+GCA_016190145.1	range	#ff1493	p__Planctomycetota
+GCA_016190175.1	range	#ff1493	p__Planctomycetota
+GCA_016190205.1	range	#00ff7f	p__Omnitrophota
+GCA_016190305.1	range	#ffa500	p__Firmicutes_E
+GCA_016190375.1	range	#eee8aa	p__Myxococcota
+GCA_016190445.1	range	#ffa07a	p__Chloroflexota
+GCA_016190505.1	range	#ffa07a	p__Chloroflexota
+GCA_016190625.1	range	#ffa07a	p__Chloroflexota
+GCA_016190665.1	range	#ffa07a	p__Chloroflexota
+GCA_016190815.1	range	#ffa07a	p__Chloroflexota
+GCA_016191085.1	range	#6495ed	p__Acidobacteriota
+GCA_016191235.1	range	#7fffd4	p__Proteobacteria
+GCA_016191335.1	range	#9acd32	p__Elusimicrobiota
+GCA_016192035.1	range	#dc143c	p__Bacteroidota
+GCA_016192455.1	range		p__JACPUC01
+GCA_016192655.1	range	#7b68ee	p__Desulfobacterota
+GCA_016192705.1	range	#eee8aa	p__Myxococcota
+GCA_016193065.1	range		p__JACPSX01
+GCA_016194285.1	range	#db7093	p__Nitrospirota
+GCA_016195325.1	range	#6495ed	p__Acidobacteriota
+GCA_016195465.1	range	#db7093	p__Nitrospirota
+GCA_016196625.1	range	#ee82ee	p__Patescibacteria
+GCA_016196915.1	range		p__JACPWU01
+GCA_016197155.1	range	#00ff7f	p__Omnitrophota
+GCA_016197285.1	range		p__Desulfobacterota_B
+GCA_016198745.1	range	#ffff00	p__Verrucomicrobiota
+GCA_016199065.1	range	#ee82ee	p__Patescibacteria
+GCA_016199325.1	range	#ffa07a	p__Chloroflexota
+GCA_016200345.1	range		p__Nitrospinota
+GCA_016200445.1	range	#7fffd4	p__Proteobacteria
+GCA_016200465.1	range	#7fffd4	p__Proteobacteria
+GCA_016200485.1	range	#7fffd4	p__Proteobacteria
+GCA_016201015.1	range	#7fffd4	p__Proteobacteria
+GCA_016201345.1	range	#6495ed	p__Acidobacteriota
+GCA_016201705.1	range	#00ff7f	p__Omnitrophota
+GCA_016201765.1	range	#db7093	p__Nitrospirota
+GCA_016201825.1	range	#db7093	p__Nitrospirota
+GCA_016201905.1	range	#ff4500	p__Cyanobacteria
+GCA_016202325.1	range		p__UBA10199
+GCA_016202395.1	range		p__JACQOV01
+GCA_016202485.1	range	#ffa07a	p__Chloroflexota
+GCA_016202695.1	range	#7fffd4	p__Proteobacteria
+GCA_016202915.1	range	#6495ed	p__Acidobacteriota
+GCA_016203755.1	range	#ee82ee	p__Patescibacteria
+GCA_016203765.1	range		p__UBA10199
+GCA_016203935.1	range	#ee82ee	p__Patescibacteria
+GCA_016204585.1	range	#ee82ee	p__Patescibacteria
+GCA_016204975.1	range	#9acd32	p__Elusimicrobiota
+GCA_016205045.1	range	#9acd32	p__Elusimicrobiota
+GCA_016206165.1	range	#ee82ee	p__Patescibacteria
+GCA_016206675.1	range	#00ff7f	p__Omnitrophota
+GCA_016206785.1	range	#00ff7f	p__Omnitrophota
+GCA_016206925.1	range	#00ff7f	p__Omnitrophota
+GCA_016206945.1	range	#00ff7f	p__Omnitrophota
+GCA_016207225.1	range		p__Micrarchaeota
+GCA_016207405.1	range	#7fffd4	p__Proteobacteria
+GCA_016208165.1	range	#7b68ee	p__Desulfobacterota
+GCA_016208205.1	range		p__UBA9089
+GCA_016208615.1	range	#008080	p__WOR-3
+GCA_016208805.1	range	#ff1493	p__Planctomycetota
+GCA_016209155.1	range		p__JACRDZ01
+GCA_016209495.1	range	#ff1493	p__Planctomycetota
+GCA_016209585.1	range	#ff1493	p__Planctomycetota
+GCA_016209595.1	range	#ff1493	p__Planctomycetota
+GCA_016209885.1	range		p__Gemmatimonadota
+GCA_016210125.1	range	#ffa07a	p__Chloroflexota
+GCA_016210205.1	range	#ffa07a	p__Chloroflexota
+GCA_016210425.1	range	#ffa07a	p__Chloroflexota
+GCA_016210485.1	range	#ffa07a	p__Chloroflexota
+GCA_016210565.1	range	#ffa07a	p__Chloroflexota
+GCA_016210665.1	range	#ffa07a	p__Chloroflexota
+GCA_016210705.1	range	#ffa07a	p__Chloroflexota
+GCA_016210925.1	range	#6495ed	p__Acidobacteriota
+GCA_016211105.1	range	#6495ed	p__Acidobacteriota
+GCA_016212085.1	range	#db7093	p__Nitrospirota
+GCA_016212295.1	range		p__Nitrospinota
+GCA_016212395.1	range		p__Micrarchaeota
+GCA_016213125.1	range	#ffa07a	p__Chloroflexota
+GCA_016213935.1	range	#db7093	p__Nitrospirota
+GCA_016214265.1	range	#00ff7f	p__Omnitrophota
+GCA_016214425.1	range	#db7093	p__Nitrospirota
+GCA_016214925.1	range	#7fffd4	p__Proteobacteria
+GCA_016215325.1	range	#ee82ee	p__Patescibacteria
+GCA_016217625.1	range	#db7093	p__Nitrospirota
+GCA_016218215.1	range	#ee82ee	p__Patescibacteria
+GCA_016218315.1	range	#7fffd4	p__Proteobacteria
+GCA_016218365.1	range	#7fffd4	p__Proteobacteria
+GCA_016218485.1	range	#ee82ee	p__Patescibacteria
+GCA_016218565.1	range		p__UBA6262
+GCA_016218785.1	range	#eee8aa	p__Myxococcota
+GCA_016218805.1	range	#eee8aa	p__Myxococcota
+GCA_016218925.1	range		p__Desulfobacterota_B
+GCA_016218965.1	range	#eee8aa	p__Myxococcota
+GCA_016219165.1	range	#7b68ee	p__Desulfobacterota
+GCA_016219275.1	range	#ffa07a	p__Chloroflexota
+GCA_016220175.1	range	#ee82ee	p__Patescibacteria
+GCA_016222885.1	range	#db7093	p__Nitrospirota
+GCA_016234185.1	range	#db7093	p__Nitrospirota
+GCA_016235055.1	range	#ffa07a	p__Chloroflexota
+GCA_016235085.1	range		p__Zixibacteria
+GCA_016235255.1	range		p__Nitrospinota
+GCA_016278515.1	range	#ffa500	p__Firmicutes_B
+GCA_016282055.1	range	#0000ff	p__Firmicutes
+GCA_016283195.1	range	#eee8aa	p__Myxococcota
+GCA_016292335.1	range		p__Asgardarchaeota
+GCA_016342585.1	range	#7cfc00	p__Spirochaetota
+GCA_016342615.1	range		p__Cloacimonadota
+GCA_016462605.1	range	#ff1493	p__Planctomycetota
+GCA_016463385.1	range	#ff00ff	p__Actinobacteriota
+GCA_016699305.1	range	#7fffd4	p__Proteobacteria
+GCA_016699595.1	range	#ee82ee	p__Patescibacteria
+GCA_016706365.1	range	#dc143c	p__Bacteroidota
+GCA_016706995.1	range		p__OLB16
+GCA_016709185.1	range	#ffa07a	p__Chloroflexota
+GCA_016710285.1	range	#dc143c	p__Bacteroidota
+GCA_016711215.1	range	#eee8aa	p__Myxococcota
+GCA_016711965.1	range	#6495ed	p__Acidobacteriota
+GCA_016712635.1	range	#7fffd4	p__Proteobacteria
+GCA_016713535.1	range		p__JADJOY01
+GCA_016716175.1	range	#eee8aa	p__Myxococcota
+GCA_016716705.1	range	#6495ed	p__Acidobacteriota
+GCA_016717175.1	range	#eee8aa	p__Myxococcota
+GCA_016718485.1	range	#ffa07a	p__Chloroflexota
+GCA_016720015.1	range	#ffa07a	p__Chloroflexota
+GCA_016721565.1	range		p__AABM5-125-24
+GCA_016721625.1	range	#9acd32	p__Elusimicrobiota
+GCA_016743755.1	range	#dc143c	p__Bacteroidota
+GCA_016744855.1	range		p__Fermentibacterota
+GCA_016765075.1	range	#7fffd4	p__Proteobacteria
+GCA_016776815.1	range	#ffff00	p__Verrucomicrobiota
+GCA_016781735.1	range	#ffa07a	p__Chloroflexota
+GCA_016781775.1	range	#ff00ff	p__Actinobacteriota
+GCA_016782545.1	range	#ee82ee	p__Patescibacteria
+GCA_016783145.1	range	#ffa07a	p__Chloroflexota
+GCA_016783645.1	range		p__AABM5-125-24
+GCA_016784265.1	range		p__Marinisomatota
+GCA_016786465.1	range	#808000	p__Bdellovibrionota
+GCA_016788215.1	range		p__CLD3
+GCA_016792605.1	range	#7fffd4	p__Proteobacteria
+GCA_016794225.1	range	#7fffd4	p__Proteobacteria
+GCA_016794465.1	range	#eee8aa	p__Myxococcota
+GCA_016794565.1	range	#ff1493	p__Planctomycetota
+GCA_016795345.1	range	#ff1493	p__Planctomycetota
+GCA_016839265.1	range		p__Asgardarchaeota
+GCA_016840425.1	range		p__Asgardarchaeota
+GCA_016840465.1	range		p__Asgardarchaeota
+GCA_016840515.1	range		p__Asgardarchaeota
+GCA_016841325.1	range	#ffa500	p__Firmicutes_B
+GCA_016841825.1	range	#ffa500	p__Firmicutes_F
+GCA_016842005.1	range	#ffa500	p__Firmicutes_A
+GCA_016844545.1	range	#7b68ee	p__Desulfobacterota
+GCA_016844565.1	range	#ffa07a	p__Chloroflexota
+GCA_016845225.1	range		p__Nanoarchaeota
+GCA_016861265.1	range	#ee82ee	p__Patescibacteria
+GCA_016866735.1	range	#ee82ee	p__Patescibacteria
+GCA_016867055.1	range	#00ff7f	p__Omnitrophota
+GCA_016867135.1	range	#00ff7f	p__Omnitrophota
+GCA_016867505.1	range	#8b008b	p__Thermoproteota
+GCA_016867835.1	range		p__AABM5-125-24
+GCA_016869285.1	range	#7fffd4	p__Proteobacteria
+GCA_016869515.1	range	#7fffd4	p__Proteobacteria
+GCA_016870485.1	range	#ff00ff	p__Actinobacteriota
+GCA_016873475.1	range		p__Krumholzibacteriota
+GCA_016875915.1	range	#ffa07a	p__Chloroflexota
+GCA_016875995.1	range	#ffa07a	p__Chloroflexota
+GCA_016887505.1	range	#ffa500	p__Firmicutes_B
+GCA_016926295.1	range		p__Iainarchaeota
+GCA_016926495.1	range		p__JAFGOL01
+GCA_016927185.1	range		p__JAFGND01
+GCA_016927565.1	range	#ee82ee	p__Patescibacteria
+GCA_016927795.1	range	#00ff7f	p__Omnitrophota
+GCA_016927995.1	range	#ee82ee	p__Patescibacteria
+GCA_016928395.1	range		p__Fermentibacterota
+GCA_016928695.1	range		p__Sumerlaeota
+GCA_016928875.1	range	#00ff7f	p__Omnitrophota
+GCA_016928935.1	range		p__Eisenbacteria
+GCA_016929035.1	range		p__JAFGBW01
+GCA_016929055.1	range		p__KSB1
+GCA_016929445.1	range	#00ff7f	p__Omnitrophota
+GCA_016929715.1	range	#008080	p__WOR-3
+GCA_016929905.1	range	#ffff00	p__Verrucomicrobiota
+GCA_016930435.1	range		p__UBP14
+GCA_016930485.1	range	#00ff7f	p__Omnitrophota
+GCA_016930595.1	range	#ff1493	p__Planctomycetota
+GCA_016930675.1	range	#7cfc00	p__Spirochaetota
+GCA_016930695.1	range		p__JABDJQ01
+GCA_016931175.1	range		p__Nanoarchaeota
+GCA_016931225.1	range	#7b68ee	p__Desulfobacterota
+GCA_016931325.1	range	#7cfc00	p__Spirochaetota
+GCA_016931515.1	range		p__CSSED10-310
+GCA_016931535.1	range	#eee8aa	p__Myxococcota
+GCA_016931695.1	range	#ffa07a	p__Chloroflexota
+GCA_016932135.1	range	#7cfc00	p__Spirochaetota
+GCA_016932295.1	range		p__CSSED10-310
+GCA_016932385.1	range		p__4484-113
+GCA_016932415.1	range		p__Krumholzibacteriota
+GCA_016932915.1	range	#6495ed	p__Acidobacteriota
+GCA_016932965.1	range		p__JAFGBW01
+GCA_016933315.1	range		p__UBA6266
+GCA_016933955.1	range		p__Zixibacteria
+GCA_016934095.1	range		p__Gemmatimonadota
+GCA_016934215.1	range	#ee82ee	p__Patescibacteria
+GCA_016934265.1	range	#7cfc00	p__Spirochaetota
+GCA_016934595.1	range		p__SZUA-182
+GCA_016934635.1	range	#008080	p__WOR-3
+GCA_016934675.1	range		p__CSSED10-310
+GCA_016934955.1	range		p__QNDG01
+GCA_016935335.1	range	#7b68ee	p__Desulfobacterota
+GCA_016935485.1	range	#ff1493	p__Planctomycetota
+GCA_016935665.1	range	#eee8aa	p__Myxococcota
+GCA_016936295.1	range	#7cfc00	p__Spirochaetota
+GCA_016936315.1	range	#7fffd4	p__Proteobacteria
+GCA_016936615.1	range	#7cfc00	p__Spirochaetota
+GCA_016936735.1	range		p__UBP6
+GCA_016936765.1	range	#7fffd4	p__Proteobacteria
+GCA_016936855.1	range	#7fffd4	p__Proteobacteria
+GCA_016937815.1	range	#7cfc00	p__Spirochaetota
+GCA_017161645.1	range		p__Sumerlaeota
+GCA_017161665.1	range		p__Sumerlaeota
+GCA_017161705.1	range		p__Sumerlaeota
+GCA_017302015.1	range	#7cfc00	p__Spirochaetota
+GCA_017390595.1	range	#ffa500	p__Firmicutes_C
+GCA_017393425.1	range	#ffa500	p__Firmicutes_A
+GCA_017409875.1	range	#ffa500	p__Firmicutes_A
+GCA_017411435.1	range	#ffa500	p__Firmicutes_A
+GCA_017421905.1	range	#ffa500	p__Firmicutes_A
+GCA_017421975.1	range	#eee8aa	p__Myxococcota
+GCA_017442875.1	range	#0000ff	p__Firmicutes
+GCA_017444215.1	range	#7fffd4	p__Proteobacteria
+GCA_017481725.1	range	#ffff00	p__Verrucomicrobiota
+GCA_017512095.1	range	#ee82ee	p__Patescibacteria
+GCA_017578085.1	range	#ffa500	p__Firmicutes_G
+GCA_017608045.1	range		p__Nanoarchaeota
+GCA_017608505.1	range		p__Nanoarchaeota
+GCA_017609605.1	range		p__Nanoarchaeota
+GCA_017610385.1	range		p__Nanohaloarchaeota
+GCA_017640025.1	range	#7fffd4	p__Proteobacteria
+GCA_017656255.1	range	#0000ff	p__Firmicutes
+GCA_017656425.1	range		p__Marinisomatota
+GCA_017743605.1	range	#ffa07a	p__Chloroflexota
+GCA_017857545.1	range	#8b008b	p__Thermoproteota
+GCA_017881725.1	range		p__Fibrobacterota
+GCA_017983775.1	range	#ee82ee	p__Patescibacteria
+GCA_017985985.1	range	#808000	p__Bdellovibrionota
+GCA_017993175.1	range		p__Thermotogota
+GCA_017993505.1	range	#ff1493	p__Planctomycetota
+GCA_017994815.1	range	#6495ed	p__Acidobacteriota
+GCA_017996775.1	range	#ffa500	p__Firmicutes_A
+GCA_017997825.1	range		p__JAGOEH01
+GCA_017998785.1	range	#008000	p__Armatimonadota
+GCA_017999075.1	range		p__JAGOBX01
+GCA_018001935.1	range	#6495ed	p__Acidobacteriota
+GCA_018005655.1	range	#ffa07a	p__Chloroflexota
+GCA_018006325.1	range	#ff00ff	p__Actinobacteriota
+GCA_018053165.1	range		p__DUMJ01
+GCA_018053685.1	range	#ee82ee	p__Patescibacteria
+GCA_018056595.1	range		p__Coprothermobacterota
+GCA_018061105.1	range	#7fffd4	p__Proteobacteria
+GCA_018061255.1	range	#7fffd4	p__Proteobacteria
+GCA_018221005.1	range		p__SpSt-1190
+GCA_018263365.1	range		p__Marinisomatota
+GCA_018263395.1	range	#00008b	p__Halobacteriota
+GCA_018266275.1	range	#ff4500	p__Cyanobacteria
+GCA_018332375.1	range	#7fffd4	p__Proteobacteria
+GCA_018335015.1	range		p__Bipolaricaulota
+GCA_018363925.1	range	#ffa500	p__Firmicutes_A
+GCA_018396415.1	range	#8b008b	p__Thermoproteota
+GCA_018399975.1	range	#00ff7f	p__Omnitrophota
+GCA_018400915.1	range		p__Marinisomatota
+GCA_018401215.1	range	#0000ff	p__Firmicutes
+GCA_018402195.1	range	#7fffd4	p__Proteobacteria
+GCA_018432565.1	range	#ffff00	p__Verrucomicrobiota
+GCA_018433535.1	range	#7b68ee	p__Desulfobacterota
+GCA_018434225.1	range	#ffa500	p__Firmicutes_E
+GCA_018435005.1	range	#ff1493	p__Planctomycetota
+GCA_018435605.1	range		p__Aureabacteria
+GCA_018606645.1	range	#ffa07a	p__Chloroflexota
+GCA_018609185.1	range	#ee82ee	p__Patescibacteria
+GCA_018609785.1	range	#ee82ee	p__Patescibacteria
+GCA_018609925.1	range	#7fffd4	p__Proteobacteria
+GCA_018609935.1	range	#00008b	p__Halobacteriota
+GCA_018644845.1	range	#8b4513	p__Margulisbacteria
+GCA_018645275.1	range	#ffff00	p__Verrucomicrobiota
+GCA_018648305.1	range	#7fffd4	p__Proteobacteria
+GCA_018650465.1	range	#7fffd4	p__Proteobacteria
+GCA_018651045.1	range	#ee82ee	p__Patescibacteria
+GCA_018656335.1	range	#7fffd4	p__Proteobacteria
+GCA_018658465.1	range	#7fffd4	p__Proteobacteria
+GCA_018662945.1	range	#7fffd4	p__Proteobacteria
+GCA_018663685.1	range	#7fffd4	p__Proteobacteria
+GCA_018665225.1	range	#7fffd4	p__Proteobacteria
+GCA_018666605.1	range	#ffff00	p__Verrucomicrobiota
+GCA_018666955.1	range	#7fffd4	p__Proteobacteria
+GCA_018671315.1	range	#ffa07a	p__Chloroflexota
+GCA_018675555.1	range	#7fffd4	p__Proteobacteria
+GCA_018676555.1	range		p__Nitrospinota
+GCA_018676875.1	range	#7fffd4	p__Proteobacteria
+GCA_018693395.1	range		p__Marinisomatota
+GCA_018693855.1	range	#ee82ee	p__Patescibacteria
+GCA_018699495.1	range	#8b4513	p__Margulisbacteria
+GCA_018700995.1	range	#7fffd4	p__Proteobacteria
+GCA_018701105.1	range	#ee82ee	p__Patescibacteria
+GCA_018701515.1	range	#ee82ee	p__Patescibacteria
+GCA_018702995.1	range	#eee8aa	p__Myxococcota
+GCA_018725175.1	range		p__HKB111
+GCA_018780035.1	range	#ff4500	p__Cyanobacteria
+GCA_018812345.1	range		p__UBA10199
+GCA_018812485.1	range		p__JAHJDO01
+GCA_018812585.1	range		p__AABM5-125-24
+GCA_018812925.1	range		p__CAIJMQ01
+GCA_018813925.1	range	#ee82ee	p__Patescibacteria
+GCA_018814995.1	range	#ee82ee	p__Patescibacteria
+GCA_018815065.1	range	#7fffd4	p__Proteobacteria
+GCA_018816215.1	range		p__UBA9089
+GCA_018816645.1	range	#ee82ee	p__Patescibacteria
+GCA_018817085.1	range	#ee82ee	p__Patescibacteria
+GCA_018817195.1	range	#8b4513	p__Margulisbacteria
+GCA_018817365.1	range	#ee82ee	p__Patescibacteria
+GCA_018818105.1	range	#00ff7f	p__Omnitrophota
+GCA_018818265.1	range	#ee82ee	p__Patescibacteria
+GCA_018818905.1	range	#ee82ee	p__Patescibacteria
+GCA_018819135.1	range	#7b68ee	p__Desulfobacterota
+GCA_018819565.1	range	#eee8aa	p__Myxococcota
+GCA_018821285.1	range		p__Zixibacteria
+GCA_018822565.1	range		p__Krumholzibacteriota
+GCA_018823415.1	range	#ffa07a	p__Chloroflexota
+GCA_018824895.1	range	#7fffd4	p__Proteobacteria
+GCA_018825025.1	range	#8b4513	p__Margulisbacteria
+GCA_018825785.1	range	#ffa07a	p__Chloroflexota
+GCA_018828505.1	range	#dc143c	p__Bacteroidota
+GCA_018828825.1	range	#ff1493	p__Planctomycetota
+GCA_018829905.1	range	#ee82ee	p__Patescibacteria
+GCA_018830405.1	range		p__Nitrospinota
+GCA_018830605.1	range	#ee82ee	p__Patescibacteria
+GCA_018830725.1	range	#ff00ff	p__Actinobacteriota
+GCA_018883285.1	range	#7fffd4	p__Proteobacteria
+GCA_018896025.1	range	#7b68ee	p__Desulfobacterota
+GCA_018896195.1	range	#00ff7f	p__Omnitrophota
+GCA_018896215.1	range	#ee82ee	p__Patescibacteria
+GCA_018897095.1	range	#00ff7f	p__Omnitrophota
+GCA_018899075.1	range	#00ff7f	p__Omnitrophota
+GCA_018902915.1	range	#00ff7f	p__Omnitrophota
+GCA_018903055.1	range		p__UBP18
+GCA_018920365.1	range		p__Aenigmatarchaeota
+GCA_018968785.1	range	#ee82ee	p__Patescibacteria
+GCA_018970565.1	range	#dc143c	p__Bacteroidota
+GCA_018971345.1	range	#7fffd4	p__Proteobacteria
+GCA_019057635.1	range		p__Asgardarchaeota
+GCA_019112945.1	range	#ffa500	p__Firmicutes_A
+GCA_019186965.1	range	#7cfc00	p__Spirochaetota
+GCA_019236785.1	range		p__Eremiobacterota
+GCA_019239895.1	range	#008000	p__Armatimonadota
+GCA_019247495.1	range	#6495ed	p__Acidobacteriota
+GCA_019247515.1	range	#ffa07a	p__Chloroflexota
+GCA_900299205.1	range		p__Bdellovibrionota_C
+GCA_900313935.1	range	#7cfc00	p__Spirochaetota
+GCA_900546025.1	range	#0000ff	p__Firmicutes
+GCA_900762815.1	range	#9acd32	p__Elusimicrobiota
+GCA_902158735.1	range	#00008b	p__Halobacteriota
+GCA_902373525.1	range		p__Desulfobacterota_I
+GCA_902384675.1	range		p__EX4484-52
+GCA_902384795.1	range		p__Micrarchaeota
+GCA_902386535.1	range		p__Micrarchaeota
+GCA_902551695.1	range	#7fffd4	p__Proteobacteria
+GCA_902558105.1	range	#8b4513	p__Margulisbacteria
+GCA_902578465.1	range	#ffa07a	p__Chloroflexota
+GCA_902626065.1	range	#ff00ff	p__Actinobacteriota
+GCA_902638235.1	range	#7fffd4	p__Proteobacteria
+GCA_902755105.1	range	#ffa500	p__Firmicutes_C
+GCA_902791745.1	range		p__Eremiobacterota
+GCA_902812335.1	range	#ffa07a	p__Chloroflexota
+GCA_902812875.1	range	#ffa500	p__Firmicutes_E
+GCA_902826395.1	range		p__Desulfobacterota_B
+GCA_903821565.1	range	#dc143c	p__Bacteroidota
+GCA_903822145.1	range	#008000	p__Armatimonadota
+GCA_903823905.1	range	#7b68ee	p__Desulfobacterota
+GCA_903825275.1	range		p__Fibrobacterota
+GCA_903826655.1	range	#ee82ee	p__Patescibacteria
+GCA_903827795.1	range		p__Zixibacteria
+GCA_903828055.1	range	#ee82ee	p__Patescibacteria
+GCA_903829325.1	range		p__Eremiobacterota
+GCA_903831055.1	range	#7fffd4	p__Proteobacteria
+GCA_903834455.1	range	#7fffd4	p__Proteobacteria
+GCA_903835245.1	range	#ff4500	p__Cyanobacteria
+GCA_903837785.1	range		p__Hydrogenedentota
+GCA_903844205.1	range	#ffa07a	p__Chloroflexota
+GCA_903853305.1	range	#ff4500	p__Cyanobacteria
+GCA_903858945.1	range	#ee82ee	p__Patescibacteria
+GCA_903862845.1	range	#ff00ff	p__Actinobacteriota
+GCA_903863425.1	range	#ee82ee	p__Patescibacteria
+GCA_903865565.1	range	#8b4513	p__Margulisbacteria
+GCA_903868865.1	range	#ee82ee	p__Patescibacteria
+GCA_903870015.1	range	#7fffd4	p__Proteobacteria
+GCA_903871265.1	range	#eee8aa	p__Myxococcota
+GCA_903880675.1	range	#6495ed	p__Acidobacteriota
+GCA_903880865.1	range	#dc143c	p__Bacteroidota
+GCA_903881665.1	range	#dc143c	p__Bacteroidota
+GCA_903889905.1	range	#ee82ee	p__Patescibacteria
+GCA_903891415.1	range		p__Firestonebacteria
+GCA_903897265.1	range	#6495ed	p__Acidobacteriota
+GCA_903898795.1	range	#dc143c	p__Bacteroidota
+GCA_903901045.1	range	#ff1493	p__Planctomycetota
+GCA_903903775.1	range	#7fffd4	p__Proteobacteria
+GCA_903905165.1	range	#7fffd4	p__Proteobacteria
+GCA_903909435.1	range	#6495ed	p__Acidobacteriota
+GCA_903912545.1	range	#dc143c	p__Bacteroidota
+GCA_903914335.1	range	#008000	p__Armatimonadota
+GCA_903915615.1	range	#008000	p__Armatimonadota
+GCA_903916085.1	range	#ffff00	p__Verrucomicrobiota
+GCA_903921895.1	range	#00008b	p__Halobacteriota
+GCA_903923815.1	range	#eee8aa	p__Myxococcota
+GCA_903924805.1	range	#7b68ee	p__Desulfobacterota
+GCA_903927205.1	range		p__Delongbacteria
+GCA_903928345.1	range	#008000	p__Armatimonadota
+GCA_903929765.1	range	#ff1493	p__Planctomycetota
+GCA_903930365.1	range		p__Bipolaricaulota
+GCA_903931835.1	range	#7fffd4	p__Proteobacteria
+GCA_903934155.1	range	#ffff00	p__Verrucomicrobiota
+GCA_903934825.1	range	#ee82ee	p__Patescibacteria
+GCA_903939115.1	range	#7b68ee	p__Desulfobacterota
+GCA_903958055.1	range	#ffff00	p__Verrucomicrobiota
+GCA_903960495.1	range	#7b68ee	p__Desulfobacterota
+GCA_905203135.1	range	#ff00ff	p__Actinobacteriota
+GCA_905233135.1	range	#ffa500	p__Firmicutes_C
+GCA_905233775.1	range	#7fffd4	p__Proteobacteria
+GCA_905233945.1	range		p__UBP6
+GCA_905479545.1	range	#7fffd4	p__Proteobacteria
+GCA_905480085.1	range	#ff00ff	p__Actinobacteriota
+GCA_905480585.1	range	#7fffd4	p__Proteobacteria
+GCA_905612315.1	range	#7fffd4	p__Proteobacteria
+GCF_000007185.1	range		p__Methanobacteriota_A
+GCF_000009965.1	range		p__Methanobacteriota_B
+GCF_000012805.1	range	#7fffd4	p__Proteobacteria
+GCF_000020005.1	range	#ffa500	p__Firmicutes_D
+GCF_000162955.1	range		p__Fusobacteriota
+GCF_000170755.1	range	#ffff00	p__Verrucomicrobiota
+GCF_000174415.1	range	#ffa500	p__Firmicutes_D
+GCF_000215975.1	range	#7b68ee	p__Desulfobacterota
+GCF_000218765.1	range	#0000ff	p__Firmicutes
+GCF_000219125.1	range	#ffa500	p__Firmicutes_C
+GCF_000226295.1	range	#6495ed	p__Acidobacteriota
+GCF_000241815.1	range		p__Calditrichota
+GCF_000242455.2	range	#ff1493	p__Planctomycetota
+GCF_000246795.1	range	#7cfc00	p__Spirochaetota
+GCF_000255135.1	range		p__Thermotogota
+GCF_000305815.1	range	#ffa500	p__Firmicutes_B
+GCF_000317045.1	range	#ff4500	p__Cyanobacteria
+GCF_000332315.1	range	#ff4500	p__Cyanobacteria
+GCF_000346255.1	range	#0000ff	p__Firmicutes
+GCF_000361225.1	range	#0000ff	p__Firmicutes
+GCF_000371245.1	range	#7fffd4	p__Proteobacteria
+GCF_000374545.1	range	#ffa500	p__Firmicutes_C
+GCF_000376625.1	range	#0000ff	p__Firmicutes
+GCF_000376905.1	range	#7fffd4	p__Proteobacteria
+GCF_000378205.1	range	#7cfc00	p__Spirochaetota
+GCF_000384115.1	range	#ff00ff	p__Actinobacteriota
+GCF_000388175.3	range	#7fffd4	p__Proteobacteria
+GCF_000423185.1	range	#7fffd4	p__Proteobacteria
+GCF_000426705.1	range	#7cfc00	p__Spirochaetota
+GCF_000447755.1	range	#808000	p__Bdellovibrionota
+GCF_000469585.1	range		p__Chrysiogenota
+GCF_000510645.1	range	#0000ff	p__Firmicutes
+GCF_000620305.1	range	#ffa500	p__Firmicutes_B
+GCF_000711905.1	range	#00008b	p__Halobacteriota
+GCF_000745455.1	range		p__Thermotogota
+GCF_000775285.1	range	#ff4500	p__Cyanobacteria
+GCF_000832185.1	range	#0000ff	p__Firmicutes
+GCF_000969965.1	range	#00008b	p__Halobacteriota
+GCF_001375675.1	range	#0000ff	p__Firmicutes
+GCF_001431295.1	range	#7fffd4	p__Proteobacteria
+GCF_001446995.1	range	#7fffd4	p__Proteobacteria
+GCF_001458355.1	range	#7fffd4	p__Proteobacteria
+GCF_001467705.1	range	#7fffd4	p__Proteobacteria
+GCF_001536205.1	range	#dc143c	p__Bacteroidota
+GCF_001560315.1	range	#8b008b	p__Thermoproteota
+GCF_001568105.1	range	#7cfc00	p__Spirochaetota
+GCF_001614315.2	range	#7fffd4	p__Proteobacteria
+GCF_001629705.1	range	#0000ff	p__Firmicutes
+GCF_001705625.1	range	#7fffd4	p__Proteobacteria
+GCF_001742305.1	range	#0000ff	p__Firmicutes
+GCF_001748485.2	range	#0000ff	p__Firmicutes
+GCF_001750555.1	range	#ff00ff	p__Actinobacteriota
+GCF_001939115.1	range	#ff4500	p__Cyanobacteria
+GCF_001968985.1	range		p__Aquificota
+GCF_002020875.1	range	#7fffd4	p__Proteobacteria
+GCF_002049395.1	range	#ffa500	p__Firmicutes_B
+GCF_002117145.1	range	#7fffd4	p__Proteobacteria
+GCF_002207765.1	range	#ffa500	p__Firmicutes_B
+GCF_002243515.1	range	#0000ff	p__Firmicutes
+GCF_002251265.1	range	#ff1493	p__Planctomycetota
+GCF_002252565.1	range	#ffa500	p__Firmicutes_A
+GCF_002335805.1	range	#0000ff	p__Firmicutes
+GCF_002355375.1	range	#0000ff	p__Firmicutes
+GCF_002407065.1	range	#ff00ff	p__Actinobacteriota
+GCF_002760375.1	range	#ff4500	p__Cyanobacteria
+GCF_002776555.1	range	#7fffd4	p__Proteobacteria
+GCF_002777255.1	range	#ffa500	p__Firmicutes_B
+GCF_002847805.1	range		p__Campylobacterota
+GCF_002849995.1	range	#7fffd4	p__Proteobacteria
+GCF_002857635.1	range	#7fffd4	p__Proteobacteria
+GCF_002996025.1	range	#7cfc00	p__Spirochaetota
+GCF_003003695.1	range	#ff4500	p__Cyanobacteria
+GCF_003057575.1	range	#0000ff	p__Firmicutes
+GCF_003057965.1	range		p__Thermodesulfobiota
+GCF_003097315.1	range	#7fffd4	p__Proteobacteria
+GCF_003149675.1	range		p__Methanobacteriota
+GCF_003244615.1	range	#7fffd4	p__Proteobacteria
+GCF_003337735.1	range	#7fffd4	p__Proteobacteria
+GCF_003339615.1	range		p__Chlamydiota
+GCF_003400025.1	range	#8b008b	p__Thermoproteota
+GCF_003428335.1	range	#7fffd4	p__Proteobacteria
+GCF_003570995.1	range		p__Caldisericota
+GCF_003665065.1	range	#0000ff	p__Firmicutes
+GCF_003751635.1	range	#7fffd4	p__Proteobacteria
+GCF_003860565.1	range	#dc143c	p__Bacteroidota
+GCF_003949875.1	range	#ff00ff	p__Actinobacteriota
+GCF_003959285.1	range		p__Deinococcota
+GCF_003967195.1	range	#7fffd4	p__Proteobacteria
+GCF_003992015.1	range	#ffa500	p__Firmicutes_C
+GCF_004005845.1	range	#7fffd4	p__Proteobacteria
+GCF_004216915.1	range	#ff00ff	p__Actinobacteriota
+GCF_004340685.1	range	#ffa500	p__Firmicutes_G
+GCF_004362995.1	range	#7fffd4	p__Proteobacteria
+GCF_004634385.1	range	#ffa500	p__Firmicutes_E
+GCF_006517175.1	range	#eee8aa	p__Myxococcota
+GCF_007595645.1	range	#7cfc00	p__Spirochaetota
+GCF_007751945.1	range	#ff1493	p__Planctomycetota
+GCF_008244535.1	range		p__Dictyoglomota
+GCF_008274965.1	range	#7fffd4	p__Proteobacteria
+GCF_008326305.1	range	#ffa07a	p__Chloroflexota
+GCF_008933955.1	range	#ffa500	p__Firmicutes_B
+GCF_009709195.1	range	#7fffd4	p__Proteobacteria
+GCF_009901565.1	range	#ff00ff	p__Actinobacteriota
+GCF_010499435.1	range	#7b68ee	p__Desulfobacterota
+GCF_011064545.1	range	#7fffd4	p__Proteobacteria
+GCF_011250595.1	range	#0000ff	p__Firmicutes
+GCF_011812985.1	range	#7cfc00	p__Spirochaetota
+GCF_012568845.1	range	#7fffd4	p__Proteobacteria
+GCF_012955605.1	range	#0000ff	p__Firmicutes
+GCF_013282055.1	range	#ff00ff	p__Actinobacteriota
+GCF_013303125.1	range	#0000ff	p__Firmicutes
+GCF_013409775.1	range	#ffa500	p__Firmicutes_B
+GCF_013868055.1	range	#0000ff	p__Firmicutes
+GCF_014217765.1	range	#ff00ff	p__Actinobacteriota
+GCF_014646935.1	range	#0000ff	p__Firmicutes
+GCF_014695385.1	range	#ff4500	p__Cyanobacteria
+GCF_014696065.1	range	#ff4500	p__Cyanobacteria
+GCF_014698215.1	range	#ff4500	p__Cyanobacteria
+GCF_014698895.1	range	#ff4500	p__Cyanobacteria
+GCF_014748375.1	range	#7fffd4	p__Proteobacteria
+GCF_014841895.1	range	#7fffd4	p__Proteobacteria
+GCF_014931565.1	range		p__Firmicutes_H
+GCF_015549205.1	range	#0000ff	p__Firmicutes
+GCF_016629505.1	range	#7fffd4	p__Proteobacteria
+GCF_016908315.1	range	#ffa500	p__Firmicutes_F
+GCF_017298635.1	range	#0000ff	p__Firmicutes
+GCF_017377855.1	range	#6495ed	p__Acidobacteriota
+GCF_017874545.1	range	#ffa500	p__Firmicutes_A
+GCF_017875395.1	range		p__Methanobacteriota_A
+GCF_018107685.1	range	#7fffd4	p__Proteobacteria
+GCF_018588215.1	range		p__Thermotogota
+GCF_018604565.1	range	#0000ff	p__Firmicutes
+GCF_018802225.1	range	#0000ff	p__Firmicutes
+GCF_018835585.1	range	#ffa500	p__Firmicutes_C
+GCF_019039055.1	range	#7fffd4	p__Proteobacteria
+GCF_900102855.1	range	#7fffd4	p__Proteobacteria
+GCF_900104455.1	range	#ffa500	p__Firmicutes_C
+GCF_900105175.1	range	#ff00ff	p__Actinobacteriota
+GCF_900107645.1	range	#7b68ee	p__Desulfobacterota
+GCF_900112605.1	range	#7fffd4	p__Proteobacteria
+GCF_900142275.1	range	#ffa500	p__Firmicutes_D
+GCF_900168145.1	range	#ffa500	p__Firmicutes_A
+GCF_900177705.1	range		p__Fibrobacterota
+GCF_900407355.1	range	#7fffd4	p__Proteobacteria
+GCF_900538055.1	range	#0000ff	p__Firmicutes
+GCF_900683915.1	range	#ffa500	p__Firmicutes_A
+GCF_900983915.1	range	#0000ff	p__Firmicutes
+GCF_902375525.1	range	#0000ff	p__Firmicutes
+GCF_902810565.1	range	#00008b	p__Halobacteriota
+refined_concoct_gx1a_bin_19-contigs	range	#7fffd4	p__Proteobacteria
+refined_concoct_gx2a_bin_45-contigs	range	#7fffd4	p__Proteobacteria
+refined_concoct_gx2a_bin_46-contigs	range	#7fffd4	p__Proteobacteria
+refined_concoct_hx1a_bin_2-contigs	range	#dc143c	p__Bacteroidota
+refined_concoct_hx1a_bin_56-contigs	range	#eee8aa	p__Myxococcota
+refined_concoct_hx1b_bin_101_sub-contigs	range	#dc143c	p__Bacteroidota
+refined_concoct_hx1b_bin_6_sub-contigs	range	#dc143c	p__Bacteroidota
+refined_concoct_hx3b_bin_14-contigs	range	#8b008b	p__Thermoproteota
+refined_concoct_sk1b_bin_29_sub-contigs	range		p__Krumholzibacteriota
+refined_concoct_sk1b_bin_44-contigs	range	#7cfc00	p__Spirochaetota
+refined_concoct_sk2b_bin_57-contigs	range	#ffa07a	p__Chloroflexota
+refined_concoct_sk3a_bin_114_sub-contigs	range	#7fffd4	p__Proteobacteria
+refined_concoct_sk3a_bin_117-contigs	range	#7fffd4	p__Proteobacteria
+refined_concoct_sk3a_bin_73-contigs	range	#eee8aa	p__Myxococcota
+refined_concoct_sk3b_bin_127_sub-contigs	range		p__Edwardsbacteria
+refined_concoct_sk3b_bin_63_sub-contigs	range	#7cfc00	p__Spirochaetota
+refined_fconcoct_hx3b_bin_105-contigs	range	#7b68ee	p__Desulfobacterota
+refined_maxbin2_gx1a_bin045-contigs	range	#7b68ee	p__Desulfobacterota
+refined_maxbin2_gx1a_bin069-contigs	range	#7b68ee	p__Desulfobacterota
+refined_maxbin2_gx1a_bin112-contigs	range	#db7093	p__Nitrospirota
+refined_maxbin2_gx1b_bin069-contigs	range	#7b68ee	p__Desulfobacterota
+refined_maxbin2_gx3a_bin093-contigs	range	#7b68ee	p__Desulfobacterota
+refined_maxbin2_gx3a_bin106_sub-contigs	range	#eee8aa	p__Myxococcota
+refined_maxbin2_hx1a_bin0044-contigs	range	#7fffd4	p__Proteobacteria
+refined_maxbin2_hx1a_bin026-contigs	range	#db7093	p__Nitrospirota
+refined_maxbin2_hx1a_bin099-contigs	range	#6495ed	p__Acidobacteriota
+refined_maxbin2_hx1a_bin154-contigs	range	#dc143c	p__Bacteroidota
+refined_maxbin2_hx1b_bin049-contigs	range	#db7093	p__Nitrospirota
+refined_maxbin2_hx1b_bin051_sub_1-contigs	range	#7b68ee	p__Desulfobacterota
+refined_maxbin2_hx2a_bin029_sub_1-contigs	range	#db7093	p__Nitrospirota
+refined_maxbin2_hx2a_bin088_sub-contigs	range	#dc143c	p__Bacteroidota
+refined_maxbin2_hx2a_bin107_sub-contigs	range	#6495ed	p__Acidobacteriota
+refined_maxbin2_hx2b_bin056-contigs	range	#db7093	p__Nitrospirota
+refined_maxbin2_hx2b_bin099_sub-contigs	range	#6495ed	p__Acidobacteriota
+refined_maxbin2_hx3a_bin130_sub_4-contigs	range	#dc143c	p__Bacteroidota
+refined_maxbin2_sk2b_bin038-contigs	range	#7b68ee	p__Desulfobacterota
+refined_metabat2_gx1a_bin_23-contigs	range	#7fffd4	p__Proteobacteria
+refined_metabat2_gx1b_bin_10-contigs	range	#7fffd4	p__Proteobacteria
+refined_metabat2_gx1b_bin_14-contigs	range	#7b68ee	p__Desulfobacterota
+refined_metabat2_gx1b_bin_29-contigs	range	#7fffd4	p__Proteobacteria
+refined_metabat2_gx1b_bin_7-contigs	range	#eee8aa	p__Myxococcota
+refined_metabat2_gx2a_bin_30-contigs	range	#7b68ee	p__Desulfobacterota
+refined_metabat2_gx2b_bin_22_sub-contigs	range	#7fffd4	p__Proteobacteria
+refined_metabat2_gx2b_bin_25_sub-contigs	range	#7b68ee	p__Desulfobacterota
+refined_metabat2_gx2b_bin_27-contigs	range	#7fffd4	p__Proteobacteria
+refined_metabat2_gx2b_bin_28-contigs	range	#eee8aa	p__Myxococcota
+refined_metabat2_gx2b_bin_34-contigs	range	#7b68ee	p__Desulfobacterota
+refined_metabat2_gx2b_bin_7-contigs	range	#ff00ff	p__Actinobacteriota
+refined_metabat2_gx3a_bin_17-contigs	range	#7b68ee	p__Desulfobacterota
+refined_metabat2_gx3a_bin_36-contigs	range	#7fffd4	p__Proteobacteria
+refined_metabat2_gx3a_bin_4-contigs	range	#7b68ee	p__Desulfobacterota
+refined_metabat2_gx3a_bin_40-contigs	range	#7b68ee	p__Desulfobacterota
+refined_metabat2_gx3b_bin_17-contigs	range	#7fffd4	p__Proteobacteria
+refined_metabat2_gx3b_bin_19-contigs	range	#7fffd4	p__Proteobacteria
+refined_metabat2_gx3b_bin_21_sub-contigs	range	#7fffd4	p__Proteobacteria
+refined_metabat2_gx3b_bin_24-contigs	range	#7b68ee	p__Desulfobacterota
+refined_metabat2_gx3b_bin_7-contigs	range	#7b68ee	p__Desulfobacterota
+refined_metabat2_gx3b_bin_9-contigs	range	#dc143c	p__Bacteroidota
+refined_metabat2_hx1a_bin_11-contigs	range	#7b68ee	p__Desulfobacterota
+refined_metabat2_hx1a_bin_12-contigs	range	#ffa07a	p__Chloroflexota
+refined_metabat2_hx1a_bin_13-contigs	range	#7fffd4	p__Proteobacteria
+refined_metabat2_hx1a_bin_16-contigs	range	#6495ed	p__Acidobacteriota
+refined_metabat2_hx1a_bin_36-contigs	range	#db7093	p__Nitrospirota
+refined_metabat2_hx1a_bin_46-contigs	range	#ffa07a	p__Chloroflexota
+refined_metabat2_hx1b_bin_10-contigs	range		p__Desulfobacterota_E
+refined_metabat2_hx1b_bin_32-contigs	range	#dc143c	p__Bacteroidota
+refined_metabat2_hx1b_bin_36-contigs	range	#db7093	p__Nitrospirota
+refined_metabat2_hx1b_bin_47_sub_1-contigs	range	#db7093	p__Nitrospirota
+refined_metabat2_hx1b_bin_67_1-contigs	range	#7fffd4	p__Proteobacteria
+refined_metabat2_hx1b_bin_70-contigs	range	#7fffd4	p__Proteobacteria
+refined_metabat2_hx2a_bin_13-contigs	range		p__Desulfobacterota_E
+refined_metabat2_hx2a_bin_34-contigs	range	#7fffd4	p__Proteobacteria
+refined_metabat2_hx2a_bin_36-contigs	range	#7b68ee	p__Desulfobacterota
+refined_metabat2_hx2a_bin_46-contigs	range	#db7093	p__Nitrospirota
+refined_metabat2_hx2a_bin_52_2-contigs	range	#7fffd4	p__Proteobacteria
+refined_metabat2_hx2a_bin_5_sub-contigs	range	#ffff00	p__Verrucomicrobiota
+refined_metabat2_hx2b_bin_11_10-contigs	range	#ffa07a	p__Chloroflexota
+refined_metabat2_hx2b_bin_14-contigs	range	#ffff00	p__Verrucomicrobiota
+refined_metabat2_hx2b_bin_15-contigs	range	#ffa07a	p__Chloroflexota
+refined_metabat2_hx2b_bin_18_sub-contigs	range		p__Desulfobacterota_E
+refined_metabat2_hx2b_bin_20_sub-contigs	range	#db7093	p__Nitrospirota
+refined_metabat2_hx2b_bin_22_4-contigs	range	#7fffd4	p__Proteobacteria
+refined_metabat2_hx2b_bin_30_sub_1-contigs	range	#dc143c	p__Bacteroidota
+refined_metabat2_hx2b_bin_31_5-contigs	range	#7b68ee	p__Desulfobacterota
+refined_metabat2_hx2b_bin_32_1-contigs	range		p__Desulfobacterota_E
+refined_metabat2_hx2b_bin_36_sub-contigs	range	#db7093	p__Nitrospirota
+refined_metabat2_hx2b_bin_42_sub_1-contigs	range	#dc143c	p__Bacteroidota
+refined_metabat2_hx2b_bin_47_1-contigs	range	#7fffd4	p__Proteobacteria
+refined_metabat2_hx2b_bin_61_1-contigs	range	#ffa07a	p__Chloroflexota
+refined_metabat2_hx2b_bin_63_sub_3-contigs	range	#db7093	p__Nitrospirota
+refined_metabat2_hx3a_bin_12-contigs	range	#db7093	p__Nitrospirota
+refined_metabat2_hx3a_bin_13-contigs	range		p__Gemmatimonadota
+refined_metabat2_hx3a_bin_14-contigs	range	#7b68ee	p__Desulfobacterota
+refined_metabat2_hx3a_bin_23-contigs	range	#6495ed	p__Acidobacteriota
+refined_metabat2_hx3a_bin_26-contigs	range		p__Desulfobacterota_E
+refined_metabat2_hx3a_bin_28-contigs	range	#7fffd4	p__Proteobacteria
+refined_metabat2_hx3a_bin_30-contigs	range	#ffa07a	p__Chloroflexota
+refined_metabat2_hx3a_bin_40_4-contigs	range	#eee8aa	p__Myxococcota
+refined_metabat2_hx3a_bin_47-contigs	range	#ffff00	p__Verrucomicrobiota
+refined_metabat2_hx3a_bin_48-contigs	range	#ffa07a	p__Chloroflexota
+refined_metabat2_hx3a_bin_51-contigs	range	#7fffd4	p__Proteobacteria
+refined_metabat2_hx3a_bin_57_1-contigs	range		p__Desulfobacterota_E
+refined_metabat2_hx3a_bin_61-contigs	range	#6495ed	p__Acidobacteriota
+refined_metabat2_hx3b_bin_11_12-contigs	range	#7fffd4	p__Proteobacteria
+refined_metabat2_hx3b_bin_12-contigs	range	#7fffd4	p__Proteobacteria
+refined_metabat2_hx3b_bin_28-contigs	range	#ffa07a	p__Chloroflexota
+refined_metabat2_hx3b_bin_38_sub-contigs	range	#ffa07a	p__Chloroflexota
+refined_metabat2_hx3b_bin_49-contigs	range	#dc143c	p__Bacteroidota
+refined_metabat2_hx3b_bin_54_1-contigs	range		p__Desulfobacterota_E
+refined_metabat2_hx3b_bin_56-contigs	range	#7fffd4	p__Proteobacteria
+refined_metabat2_hx3b_bin_62_2-contigs	range	#7b68ee	p__Desulfobacterota
+refined_metabat2_hx3b_bin_66-contigs	range	#dc143c	p__Bacteroidota
+refined_metabat2_hx3b_bin_9_sub-contigs	range	#dc143c	p__Bacteroidota
+refined_metabat2_sk1a_bin_11_1-contigs	range	#ee82ee	p__Patescibacteria
+refined_metabat2_sk1a_bin_20_1-contigs	range	#7b68ee	p__Desulfobacterota
+refined_metabat2_sk1a_bin_3_sub_1-contigs	range	#db7093	p__Nitrospirota
+refined_metabat2_sk1a_bin_41-contigs	range		p__Edwardsbacteria
+refined_metabat2_sk1a_bin_55_1-contigs	range	#db7093	p__Nitrospirota
+refined_metabat2_sk1b_bin_17-contigs	range		p__Krumholzibacteriota
+refined_metabat2_sk1b_bin_21-contigs	range	#8b008b	p__Thermoproteota
+refined_metabat2_sk1b_bin_32-contigs	range	#eee8aa	p__Myxococcota
+refined_metabat2_sk1b_bin_39-contigs	range	#7b68ee	p__Desulfobacterota
+refined_metabat2_sk1b_bin_41-contigs	range	#db7093	p__Nitrospirota
+refined_metabat2_sk1b_bin_5-contigs	range		p__Edwardsbacteria
+refined_metabat2_sk1b_bin_65-contigs	range	#ee82ee	p__Patescibacteria
+refined_metabat2_sk1b_bin_66-contigs	range	#7fffd4	p__Proteobacteria
+refined_metabat2_sk1b_bin_70-contigs	range	#db7093	p__Nitrospirota
+refined_metabat2_sk2a_bin_14-contigs	range	#db7093	p__Nitrospirota
+refined_metabat2_sk2a_bin_28-contigs	range	#8b008b	p__Thermoproteota
+refined_metabat2_sk2a_bin_30-contigs	range		p__Edwardsbacteria
+refined_metabat2_sk2a_bin_4-contigs	range		p__Krumholzibacteriota
+refined_metabat2_sk2a_bin_42-contigs	range	#7b68ee	p__Desulfobacterota
+refined_metabat2_sk2a_bin_58-contigs	range	#8b008b	p__Thermoproteota
+refined_metabat2_sk2a_bin_68-contigs	range	#db7093	p__Nitrospirota
+refined_metabat2_sk2a_bin_7-contigs	range		p__Nitrospinota
+refined_metabat2_sk2b_bin_23-contigs	range	#7fffd4	p__Proteobacteria
+refined_metabat2_sk2b_bin_24-contigs	range	#db7093	p__Nitrospirota
+refined_metabat2_sk2b_bin_34-contigs	range	#db7093	p__Nitrospirota
+refined_metabat2_sk2b_bin_36-contigs	range	#8b008b	p__Thermoproteota
+refined_metabat2_sk2b_bin_37-contigs	range		p__Edwardsbacteria
+refined_metabat2_sk2b_bin_5-contigs	range	#6495ed	p__Acidobacteriota
+refined_metabat2_sk3a_bin_12-contigs	range	#7b68ee	p__Desulfobacterota
+refined_metabat2_sk3a_bin_13-contigs	range	#00008b	p__Halobacteriota
+refined_metabat2_sk3a_bin_15-contigs	range	#7fffd4	p__Proteobacteria
+refined_metabat2_sk3a_bin_16-contigs	range	#db7093	p__Nitrospirota
+refined_metabat2_sk3a_bin_27-contigs	range		p__Edwardsbacteria
+refined_metabat2_sk3a_bin_3-contigs	range	#db7093	p__Nitrospirota
+refined_metabat2_sk3a_bin_38-contigs	range	#8b008b	p__Thermoproteota
+refined_metabat2_sk3a_bin_50-contigs	range		p__Nitrospinota
+refined_metabat2_sk3b_bin_12-contigs	range	#8b008b	p__Thermoproteota
+refined_metabat2_sk3b_bin_18-contigs	range	#ee82ee	p__Patescibacteria
+refined_metabat2_sk3b_bin_29-contigs	range	#db7093	p__Nitrospirota
+refined_metabat2_sk3b_bin_31-contigs	range	#eee8aa	p__Myxococcota
+refined_metabat2_sk3b_bin_36-contigs	range		p__Krumholzibacteriota
+refined_metabat2_sk3b_bin_47-contigs	range	#db7093	p__Nitrospirota
+refined_metabat2_sk3b_bin_49-contigs	range	#7fffd4	p__Proteobacteria
+refined_metabat2_sk3b_bin_53-contigs	range	#00008b	p__Halobacteriota
+refined_metabat2_sk3b_bin_56-contigs	range	#8b008b	p__Thermoproteota
+refined_metabat2_sk3b_bin_58-contigs	range	#7b68ee	p__Desulfobacterota

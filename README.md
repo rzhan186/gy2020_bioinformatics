@@ -1,5 +1,8 @@
 # guiyang2020 bioinformatic pipeline
  
+ 
+ 
+ 
 ### Acquiring raw sequence data
 
 ```sh
@@ -121,23 +124,23 @@ Becuase there are genes not included in KOFAM, such as the hgcAB, if we were to 
 
 [custom hmm files](https://github.com/rzhan186/gy2020_bioinformatics/blob/master/data/anvio_custom_hmm) 
 
-[anvi custom hmm](https://github.com/rzhan186/gy2020_bioinformatics/blob/master/scripts/anvi_custom_hmm.sh)
+[anvi custom hmm](https://github.com/rzhan186/gy2020_bioinformatics/blob/master/scripts/anvi_custom_hmm.sh) [Niagara]
 
 Exporting coverage info of the genes identified through the custom HMMs <br>
 [gene coverage](https://github.com/rzhan186/gy2020_bioinformatics/blob/master/scripts/gene_coverage.sh)
 
 #### Contigs level hgcA analysis
 the purpose of this step is the determine the taxonomic classification of each hgcA sequence recovered from the contigs database. <br>
-[hgcA analyses](https://github.com/rzhan186/gy2020_bioinformatics/blob/master/scripts/hgcA_analyses.sh)
+[hgcA analyses](https://github.com/rzhan186/gy2020_bioinformatics/blob/master/scripts/hgcA_analyses.sh) [Niagara]
 
 hgcA phylogenetic tree <br>
-[hgcA phylogenetic tree](https://github.com/rzhan186/gy2020_bioinformatics/blob/master/scripts/hgcA_phylogenetic_tree.sh) 
+[hgcA phylogenetic tree](https://github.com/rzhan186/gy2020_bioinformatics/blob/master/scripts/hgcA_phylogenetic_tree.sh) [Niagara]
 
 hgcAB synteny analysis <br>
-[hgcA contigs synteny](https://github.com/rzhan186/gy2020_bioinformatics/blob/master/scripts/hgcAB_contigs_synteny.sh) 
+[hgcA contigs synteny](https://github.com/rzhan186/gy2020_bioinformatics/blob/master/scripts/hgcAB_contigs_synteny.sh) [Niagara]
 
 Taxonomic classification of the contigs containing hgcAB <br>
-[hgcA contigs taxonomy](https://github.com/rzhan186/gy2020_bioinformatics/blob/master/scripts/hgcAB_contigs_taxonomy.sh) 
+[hgcA contigs taxonomy](https://github.com/rzhan186/gy2020_bioinformatics/blob/master/scripts/hgcAB_contigs_taxonomy.sh) [Niagara]
 
 
 ### Binning (outside of Anvi'o)
@@ -168,6 +171,12 @@ export contig coverages for binning outside of anvio <br>
 
 ### Metabolic analyses of the MAGs
 [MAGs metabolism](https://github.com/rzhan186/gy2020_bioinformatics/blob/master/scripts/anvi_metabolism_MAGs.sh) [Niagara]
+
+### MAGs phylgenomic tree
+[MAGs metabolism](https://github.com/rzhan186/gy2020_bioinformatics/blob/master/scripts/GToTree.sh) [Cedar]
+
+[tree files](https://github.com/rzhan186/gy2020_bioinformatics/blob/master/data/MAGs_GToTree)
+
 
 ### hgcAB synteny analysis of confirmed Hg methylators
 First downloading the genomes of the confirmed methylator from NCBI based on their NCBI accessions, and create Anvi'o contigs databases of the genomes. 

@@ -1,0 +1,19 @@
+DATASET_SYMBOL					
+SEPARATOR TAB					
+DATASET_LABEL	m				
+MAXIMUM_SIZE	6				
+DATA					
+					
+refined_metabat2_hx1a_bin_11-contigs	3	2	#ffff00	1	1
+refined_metabat2_hx2a_bin_36-contigs	3	2	#ffff00	1	1
+refined_metabat2_hx3b_bin_62_2-contigs	3	2	#ffff00	1	1
+refined_metabat2_gx2b_bin_25_sub-contigs	3	2	#ffff00	1	1
+refined_maxbin2_gx1a_bin069-contigs	3	2	#ffff00	1	1
+refined_metabat2_gx2b_bin_34-contigs	3	2	#ffff00	1	1
+refined_metabat2_gx3a_bin_40-contigs	3	2	#ffff00	1	1
+refined_metabat2_sk1a_bin_20_1-contigs	3	2	#ffff00	1	1
+refined_metabat2_sk3b_bin_58-contigs	3	2	#ffff00	1	1
+refined_maxbin2_sk2b_bin038-contigs	3	2	#ffff00	1	1
+refined_metabat2_sk3a_bin_12-contigs	3	2	#ffff00	1	1
+refined_metabat2_sk3a_bin_50-contigs	3	2	#ffff00	1	1
+refined_metabat2_sk2a_bin_7-contigs	3	2	#ffff00	1	1
