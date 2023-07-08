@@ -1,12 +1,14 @@
-# guiyang2020 bioinformatic pipeline
+# Mining-impacted Rice Paddies: Bioinformatic pipeline
  
+This GitHub repository contains data and code for the bioinformatic analyses used in the paper **Mining-impacted rice paddies select for Archaeal methylators and reveal a putative (Archaeal) regulator of mercury methylation (Zhang et al. 2023)** (DOI:[10.1038/s43705-023-00277-x]())
  
+The analyses was mainly conducted on Cedar and Niagara HPC supported by the Digital Research Alliance of Canada. Most of the scripts were developed to be run as batch jobs on Slurm Wokrload Manager. 
+
  
- 
-### Acquiring raw sequence data
+##1. Acquiring raw sequence data
 
 ```sh
-Raw sequences are submitted to the NCBI SRA under the following accession number
+Raw sequences are submitted to the NCBI SRA under the following accession numbers
 
 SRR15313073
 SRR15313072
@@ -15,25 +17,28 @@ SRR15313069
 SRR15313071
 SRR15313068
 ```
-### Sequencing data QA/QC
-Examining trimmed reads using fastqc (v0.21.0) then make a summary report using multiqc (v1.9) <br>
-[fastqc](https://github.com/rzhan186/gy2020_bioinformatics/blob/master/scripts/fastqc.sh) [Cedar] <br/>
-[multiqc](https://github.com/rzhan186/gy2020_bioinformatics/blob/master/scripts/multiqc.sh) [Cedar]
+##2. Trimming and QA/QC
+Raw reads trimming <br>
+[fastp.sh](https://github.com/rzhan186/gy2020_bioinformatics/blob/master/scripts/fastp.sh) [Cedar] <br/>
 
-### Assembling trimmed reads using MEGAHIT(v1.2.9)
+Examining trimmed reads using fastqc (v0.21.0) then make a summary report using multiqc (v1.9) <br>
+[fastqc.sh](https://github.com/rzhan186/gy2020_bioinformatics/blob/master/scripts/fastqc.sh) [Cedar] <br/>
+[multiqc.sh](https://github.com/rzhan186/gy2020_bioinformatics/blob/master/scripts/multiqc.sh) [Cedar]
+
+##3. Assembly
 [megahit.sh](hhttps://github.com/rzhan186/gy2020_bioinformatics/blob/master/scripts/megahit.sh) [Niagara]
 
-### Processing assembled contigs using Anvi'o
+##4. Anvi'o pipeline
 
-*a little note of the Anvi'o pipeline*
+*A little note of the Anvi'o pipeline*
 
-Anvio can build contigs DB from both single assemblies and co-assemblies (assemblies produced from by combining mulitple samples together, as opposed to single assembly which was produced using only a single sample). There are 3 approaches one can adopt when having multiple samples (to make the pipeline clear, here we will assume that we only have 6 samples to work with, which are hx1a, hx1b, hx2a, hx2b, hx3a, hx3b),
+Anvio can build contigs DB from both single assemblies and co-assemblies (assemblies produced by combining multiple samples together, as opposed to a single assembly that was produced using only a single sample). There are 3 approaches one can adopt when having multiple samples (to make the pipeline clear, here we will assume that we only have 6 samples to work with, which are hx1a, hx1b, hx2a, hx2b, hx3a, hx3b),
 
-Approach 1: single assemblies, single mapping
-1. generat contigs DB for each of the 6 samples, producing a total of 6 contigs DB.
+Approach 1: single assemblies and single mapping
+1. generate contigs DB for each of the 6 samples, producing a total of 6 contigs DB.
 2. map trimmed reads from each sample (e.g. R1 and R2) onto themselves to produce 6 .bam files.
 3. sort and index the 6 .bam files
-4. construct single-profile DB for each sample, a total of 6 profile DB. 
+4. construct a single-profile DB for each sample, a total of 6 profile DB. 
 5. skip anvi-merge, since there is nothing to merge. 
 6. import bins produced from each sample into the single-profile DB for manual curation with anvi-refine and the interactive interface. 
 
@@ -55,22 +60,22 @@ Approach 3: co-assemblies
 6. perform anvi-merge to merge the 6 single-profile DB from each sample, producing a total of 1 merged profile DB.
 7. import DAStool bins from each sample into the merged profile DB for manuel curation with anvi-refine and the interactive interface.
 
-I have chosen to adopt apporach 2, but it seems there is no consensus in the field as to which one is the best, the other options could perform better or worse depending on the samples you have, the only way to find out which option is the best is to try them all (if you have the passion), and compare the results.
+I have chosen to adopt approach 2, but it seems there is no consensus in the field as to which one is the best, the other options could perform better or worse depending on the samples you have, and the only way to find out which option is the best is to try them all (if you have the passion) and compare the results.
 
-#### Reformating headers of the contigs
+### Reformating headers of the contigs
 
 The reason why we need to reformat the headers of the contigs is to make them compatible with Anvi'o, and only retain contigs with a length greater than 1000 bases. We change the headers from something like **>k127_5028584 flag=1 multi=1.0000_len=305** to **>c_000000000148** using the `anvi-script-reformat-fasta` function, basically removing the spaces in the names and renumbering the contigs. Then we furthur modify the header names by attaching site names to which the headers belong, so that the header names are changed to \**>c_000000000148_hx1a**
 
 [anvi-refomat-contigs](https://github.com/rzhan186/gy2020_bioinformatics/blob/master/scripts/anvi_refomat_contigs.sh) [Niagara]
 
 
-#### Creating Anvi'o contigs databases for each sample 
+### Creating Anvi'o contigs databases for each sample 
 
 Here I created contigs database by reserving all contigs over 1000 bases.
 
 [anvi-gen-contigs-db](https://github.com/rzhan186/gy2020_bioinformatics/blob/master/scripts/anvi_gen_contigs_db.sh) [Niagara]
 
-#### Creating Anvi'o profile databases for each sample 
+### Creating Anvi'o profile databases for each sample 
 
 Here, we generate BAM files (mapping) using BWA(v0.7.17) and samtools(v1.12). As mentioned ealier, the purpose is to map each reads file from every sample of the same site onto each individual single assemblies of the same site, to guide the differential coverage based binning method later on.
 
@@ -81,15 +86,13 @@ Constructing profile database <br>
 
 (Optional) [anvi-merge](https://github.com/rzhan186/gy2020_bioinformatics/blob/master/scripts/anvi_merge.sh) [Niagara] This step is not required if you don't plan to bin your contigs using anvio. 
 
-#### Annotating the contigs databases with COG, pfam and the custom HMM from the Hg-MATE db. 
+### Annotating the contigs databases with COG, pfam and the custom HMM from the Hg-MATE db. 
 [contigs_annotation](https://github.com/rzhan186/gy2020_bioinformatics/blob/master/scripts/contigs_annotation.sh) [Niagara]
 
-
-
-#### SCG abundance in contigs databases
+### SCG abundance in contigs databases
 [anvi_scg](https://github.com/rzhan186/gy2020_bioinformatics/blob/master/scripts/anvi_scg.sh) [Niagara]
 
-#### Functional annotation of the contigs using the KEGG kofam database 
+### Functional annotation of the contigs using the KEGG kofam database 
 In this step, we will estimate the metabolic potential of our samples by applying hmmsearch using profile HMMs implemented in KEGG's kofam database on the contigs in our contigs db.
 
 [anvi_metabolism](https://github.com/rzhan186/gy2020_bioinformatics/blob/master/scripts/anvi_metabolism_contigs.sh) [Niagara]
@@ -118,8 +121,7 @@ My 2 cents._"
 
 For example, if the coverage of K00001 in sample hx1a is 100, and the total scg coverage in hx1a is 1000, then the normalized coverage value of K00001 in hx1a would be 100/1000 * 10 = 1. 
 
-
-#### Obtaining hgcAB sequences from contigs databases
+### Obtaining hgcAB sequences from contigs databases
 Becuase there are genes not included in KOFAM, such as the hgcAB, if we were to determine the abundance of those genes, we'd have add our own hmm files into anvio and do some addition coding. I implemented additional hmm files, files and codes are shown below: 
 
 [custom hmm files](https://github.com/rzhan186/gy2020_bioinformatics/blob/master/data/anvio_custom_hmm) 
@@ -129,7 +131,7 @@ Becuase there are genes not included in KOFAM, such as the hgcAB, if we were to 
 Exporting coverage info of the genes identified through the custom HMMs <br>
 [gene coverage](https://github.com/rzhan186/gy2020_bioinformatics/blob/master/scripts/gene_coverage.sh)
 
-#### Contigs level hgcA analysis
+### Contigs level hgcA analysis
 the purpose of this step is the determine the taxonomic classification of each hgcA sequence recovered from the contigs database. <br>
 [hgcA analyses](https://github.com/rzhan186/gy2020_bioinformatics/blob/master/scripts/hgcA_analyses.sh) [Niagara]
 
@@ -143,29 +145,30 @@ Taxonomic classification of the contigs containing hgcAB <br>
 [hgcA contigs taxonomy](https://github.com/rzhan186/gy2020_bioinformatics/blob/master/scripts/hgcAB_contigs_taxonomy.sh) [Niagara]
 
 
-### Binning (outside of Anvi'o)
+##5. Binning
 The purpose of this step is to bin the contigs using three binners, then combine and select the best set of bins using a DASToool. 
-#### metabat2
+### metabat2
 [metabat2.sh](https://github.com/rzhan186/gy2020_bioinformatics/blob/master/scripts/metabat2.sh) [Niagara]
 
 export contig coverages for binning outside of anvio <br>
 [anvi-export-coverage](https://github.com/rzhan186/gy2020_bioinformatics/blob/master/scripts/anvi-export-splits-and-coverages.sh)  [Niagara]
 
-#### maxbin2
+### maxbin2
 [maxbin2.sh](https://github.com/rzhan186/gy2020_bioinformatics/blob/master/scripts/maxbin2.sh) [Niagara]
 
-#### concoct
+### concoct
 [concoct.sh](https://github.com/rzhan186/gy2020_bioinformatics/blob/master/scripts/concoct.sh) [Niagara]
 
-#### DAS Tool
+### DAS Tool
 [dastool.sh](https://github.com/rzhan186/gy2020_bioinformatics/blob/master/scripts/dastool.sh) [Niagara]
 
-#### Anvi'o manual refinement
+### Anvi'o manual refinement
 [anvi-refine](https://github.com/rzhan186/gy2020_bioinformatics/blob/master/scripts/anvi_refine.sh) [Niagara]
 
-#### Final MAGs
+### The final refined set of MAGs
 [MAGs](https://github.com/rzhan186/gy2020_bioinformatics/blob/master/data/MAGs)
 
+##6. MAGs-level analyses
 ### Taxonomic classificaiton of the MAGs
 [GTDB-tk](https://github.com/rzhan186/gy2020_bioinformatics/blob/master/scripts/gtdbtk-MAGs.sh) [Niagara]
 
@@ -183,6 +186,15 @@ First downloading the genomes of the confirmed methylator from NCBI based on the
 
 [hgcAB MAGs synteny](https://github.com/rzhan186/gy2020_bioinformatics/blob/master/scripts/hgcAB_MAGs_syteny.sh) [Niagara]
 
+## Support
+For any questions about the bioinformatic pipeline in this study, please open an issue here or contact:
+
+Rui Zhang [rui.zhang@uottawa.ca]() <br>
+Biology Department, University of Ottawa
+
+Please cite the article if you found this repo helpful: <br>
+
+Zhang, R., Aris-Brosou, S., Storck, V., Liu, J., Abdelhafiz, M., Feng, X., Meng, B., and Poulain, A.J., (2023) Mining-impacted rice paddies select for Archaeal methylations and reveal a putative (Archaeal) regulator of mercury methylation. ISME Communications. (DOI:[10.1038/s43705-023-00277-x]())
 
 
 
