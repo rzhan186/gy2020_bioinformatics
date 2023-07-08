@@ -183,11 +183,11 @@ export contig coverages for binning outside of anvio <br>
 ### hgcAB synteny analysis of confirmed Hg methylators
 First downloading the genomes of the confirmed methylator from NCBI based on their NCBI accessions, then create Anvi'o contigs databases of the genomes. 
 
-[hgcAB MAGs synteny](https://github.com/rzhan186/gy2020_bioinformatics/blob/master/scripts/hgcAB_MAGs_syteny.sh)
+[hgcAB MAGs synteny](https://github.com/rzhan186/gy2020_bioinformatics/blob/master/scripts/hgcAB_MAGs_syteny.sh) [Niagara]
 
 ## 7. hgcA phylogenetic analyses
 
-[Computational Phylogenetics](https://github.com/rzhan186/gy2020_bioinformatics/blob/master/scripts/Computational_phylogenetics.sh) [Niagara]
+[Computational Phylogenetics](https://github.com/rzhan186/gy2020_bioinformatics/blob/master/scripts/Computational_phylogenetics.sh) 
 
 ## Support
 For any questions about the bioinformatic pipeline in this study, please open an issue here or contact:
