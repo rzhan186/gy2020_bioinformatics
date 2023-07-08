@@ -7,16 +7,15 @@ The analyses was mainly conducted on Cedar and Niagara HPC supported by the Digi
  
 ## 1. Acquiring raw sequence data
 
-```sh
-Raw sequences are submitted to the NCBI SRA under the following accession numbers
+Raw sequences are submitted to the NCBI SRA under the following accession numbers [https://www.ncbi.nlm.nih.gov/sra?LinkName=bioproject_sra_all&from_uid=749371](https://www.ncbi.nlm.nih.gov/sra?LinkName=bioproject_sra_all&from_uid=749371)
 
-SRR15313073
-SRR15313072
-SRR15313070
-SRR15313069
-SRR15313071
-SRR15313068
-```
+SRR15313068 <br>
+SRR15313069 <br>
+SRR15313070 <br>
+SRR15313071 <br>
+SRR15313072 <br>
+SRR15313073 <br>
+
 ## 2. Trimming and QA/QC
 Raw reads trimming <br>
 [fastp.sh](https://github.com/rzhan186/gy2020_bioinformatics/blob/master/scripts/fastp.sh) [Cedar] <br/>
@@ -182,9 +181,13 @@ export contig coverages for binning outside of anvio <br>
 
 
 ### hgcAB synteny analysis of confirmed Hg methylators
-First downloading the genomes of the confirmed methylator from NCBI based on their NCBI accessions, and create Anvi'o contigs databases of the genomes. 
+First downloading the genomes of the confirmed methylator from NCBI based on their NCBI accessions, then create Anvi'o contigs databases of the genomes. 
 
-[hgcAB MAGs synteny](https://github.com/rzhan186/gy2020_bioinformatics/blob/master/scripts/hgcAB_MAGs_syteny.sh) [Niagara]
+[Computational Phylogenetics](https://github.com/rzhan186/gy2020_bioinformatics/blob/master/scripts/Computational_phylogenetics.sh) [Niagara]
+
+## 7. hgcA phylogenetic analyses
+
+[hgcAB MAGs synteny](https://github.com/rzhan186/gy2020_bioinformatics/blob/master/scripts/hgcAB_MAGs_syteny.sh)
 
 ## Support
 For any questions about the bioinformatic pipeline in this study, please open an issue here or contact:
