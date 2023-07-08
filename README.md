@@ -5,7 +5,7 @@ This GitHub repository contains data and code for the bioinformatic analyses use
 The analyses was mainly conducted on Cedar and Niagara HPC supported by the Digital Research Alliance of Canada. Most of the scripts were developed to be run as batch jobs on Slurm Wokrload Manager. 
 
  
-##1. Acquiring raw sequence data
+## 1. Acquiring raw sequence data
 
 ```sh
 Raw sequences are submitted to the NCBI SRA under the following accession numbers
@@ -17,7 +17,7 @@ SRR15313069
 SRR15313071
 SRR15313068
 ```
-##2. Trimming and QA/QC
+## 2. Trimming and QA/QC
 Raw reads trimming <br>
 [fastp.sh](https://github.com/rzhan186/gy2020_bioinformatics/blob/master/scripts/fastp.sh) [Cedar] <br/>
 
@@ -25,10 +25,10 @@ Examining trimmed reads using fastqc (v0.21.0) then make a summary report using 
 [fastqc.sh](https://github.com/rzhan186/gy2020_bioinformatics/blob/master/scripts/fastqc.sh) [Cedar] <br/>
 [multiqc.sh](https://github.com/rzhan186/gy2020_bioinformatics/blob/master/scripts/multiqc.sh) [Cedar]
 
-##3. Assembly
+## 3. Assembly
 [megahit.sh](hhttps://github.com/rzhan186/gy2020_bioinformatics/blob/master/scripts/megahit.sh) [Niagara]
 
-##4. Anvi'o pipeline
+## 4. Anvi'o pipeline
 
 *A little note of the Anvi'o pipeline*
 
@@ -145,7 +145,7 @@ Taxonomic classification of the contigs containing hgcAB <br>
 [hgcA contigs taxonomy](https://github.com/rzhan186/gy2020_bioinformatics/blob/master/scripts/hgcAB_contigs_taxonomy.sh) [Niagara]
 
 
-##5. Binning
+## 5. Binning
 The purpose of this step is to bin the contigs using three binners, then combine and select the best set of bins using a DASToool. 
 ### metabat2
 [metabat2.sh](https://github.com/rzhan186/gy2020_bioinformatics/blob/master/scripts/metabat2.sh) [Niagara]
@@ -168,7 +168,7 @@ export contig coverages for binning outside of anvio <br>
 ### The final refined set of MAGs
 [MAGs](https://github.com/rzhan186/gy2020_bioinformatics/blob/master/data/MAGs)
 
-##6. MAGs-level analyses
+## 6. MAGs-level analyses
 ### Taxonomic classificaiton of the MAGs
 [GTDB-tk](https://github.com/rzhan186/gy2020_bioinformatics/blob/master/scripts/gtdbtk-MAGs.sh) [Niagara]
 
