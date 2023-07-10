@@ -25,7 +25,7 @@ Examining trimmed reads using fastqc (v0.21.0) then make a summary report using 
 [multiqc.sh](https://github.com/rzhan186/gy2020_bioinformatics/blob/master/scripts/multiqc.sh) [Cedar]
 
 ## 3. Assembly
-[megahit.sh](hhttps://github.com/rzhan186/gy2020_bioinformatics/blob/master/scripts/megahit.sh) [Niagara]
+[megahit.sh](https://github.com/rzhan186/gy2020_bioinformatics/blob/master/scripts/megahit.sh) [Niagara]
 
 ## 4. Anvi'o pipeline
 
