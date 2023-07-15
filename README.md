@@ -1,6 +1,6 @@
 # Mining-impacted Rice Paddies: Bioinformatic pipeline
  
-This GitHub repository contains data and code for the bioinformatic analyses used in the paper **Mining-impacted rice paddies select for Archaeal methylators and reveal a putative (Archaeal) regulator of mercury methylation (Zhang et al. 2023)** (DOI:[10.1038/s43705-023-00277-x]())
+This GitHub repository contains data and code for the bioinformatic analyses used in the paper **Mining-impacted rice paddies select for Archaeal methylators and reveal a putative (Archaeal) regulator of mercury methylation (Zhang et al. 2023)** ([https://www.nature.com/articles/s43705-023-00277-x](https://www.nature.com/articles/s43705-023-00277-x))
  
 The analyses was mainly conducted on Cedar and Niagara HPC supported by the Digital Research Alliance of Canada. Most of the scripts were developed to be run as batch jobs on Slurm Wokrload Manager. 
 
